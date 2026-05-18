@@ -1,0 +1,621 @@
+{
+  "lastRefresh": "2026-05-16T16:00:00-04:00",
+  "sourceResults": [
+    {
+      "name": "WHO Disease Outbreak News DON600",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "CDC HAN00528",
+      "url": "https://www.cdc.gov/han/php/notices/han00528.html",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "CDC Current Situation",
+      "url": "https://www.cdc.gov/hantavirus/situation-summary/index.html",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "ECDC Andes outbreak daily page",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "RIVM current information about hantavirus",
+      "url": "https://www.rivm.nl/en/hantavirus/current-information",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "RIVM update hantavirus",
+      "url": "https://www.rivm.nl/en/news/update-hantavirus",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "ASPR MV Hondius repatriation",
+      "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "Nebraska Medicine monitoring for hantavirus",
+      "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "New Jersey Department of Health MV Hondius monitoring",
+      "url": "https://www.nj.gov/health/news/2026/20260508a.shtml",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "North Carolina DHHS MV Hondius passenger update",
+      "url": "https://www.ncdhhs.gov/news/press-releases/2026/05/11/north-carolina-closely-monitoring-hantavirus",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "CBS Atlanta Emory negative test update",
+      "url": "https://www.cbsnews.com/atlanta/news/hantavirus-outbreak-cruise-ship-passenger-with-symptoms-at-emory-tests-negative-for-virus/",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "Guardian evacuated passengers update",
+      "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "GDELT DOC API U.S. 2026 discovery",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "HTTP 429"
+    }
+  ],
+  "newCandidateReports": [],
+  "publishedReports": [],
+  "updatedReports": [],
+  "supplementalUpdates": [
+    "axios-atlanta-2026-emory-hantavirus",
+    "cbs-atlanta-2026-emory-negative-test",
+    "guardian-2026-mv-hondius-evacuated-passengers",
+    "reuters-2026-mv-hondius-evacuation",
+    "abc11-raleigh-2026-hantavirus-screening-monitoring",
+    "ap-2026-mv-hondius-us-passenger-tracing",
+    "nypost-2026-new-york-hantavirus-cruise",
+    "kolo-2026-quad-county-hantavirus"
+  ],
+  "debug": {
+    "reportsDiscoveredPerSource": {
+      "WHO Disease Outbreak News DON600": 1,
+      "CDC HAN00528": 1,
+      "CDC Current Situation": 1,
+      "ECDC Andes outbreak daily page": 1,
+      "RIVM current information about hantavirus": 1,
+      "RIVM update hantavirus": 1,
+      "ASPR MV Hondius repatriation": 1,
+      "Nebraska Medicine monitoring for hantavirus": 1,
+      "New Jersey Department of Health MV Hondius monitoring": 1,
+      "North Carolina DHHS MV Hondius passenger update": 1,
+      "CBS Atlanta Emory negative test update": 1,
+      "Guardian evacuated passengers update": 1,
+      "GDELT DOC API U.S. 2026 discovery": 0
+    },
+    "eventsAfterDeduplication": 3,
+    "usEvents": 3,
+    "usReports": 15,
+    "filteredOutOldReports": 0,
+    "sourceTypeBreakdown": {
+      "official": 5,
+      "national_health_agency": 3,
+      "health_system": 1,
+      "state_health_department": 2,
+      "supplemental_news": 8,
+      "local_health_department": 1
+    },
+    "allStateDiscoveryStatus": [
+      {
+        "jurisdiction": "Alabama",
+        "abbreviation": "AL",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Alaska",
+        "abbreviation": "AK",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Arizona",
+        "abbreviation": "AZ",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Arkansas",
+        "abbreviation": "AR",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "California",
+        "abbreviation": "CA",
+        "searched": true,
+        "queryCount": 14,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Colorado",
+        "abbreviation": "CO",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Connecticut",
+        "abbreviation": "CT",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Delaware",
+        "abbreviation": "DE",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "District of Columbia",
+        "abbreviation": "DC",
+        "searched": true,
+        "queryCount": 11,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Florida",
+        "abbreviation": "FL",
+        "searched": true,
+        "queryCount": 14,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Georgia",
+        "abbreviation": "GA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 4,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Hawaii",
+        "abbreviation": "HI",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Idaho",
+        "abbreviation": "ID",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Illinois",
+        "abbreviation": "IL",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Indiana",
+        "abbreviation": "IN",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Iowa",
+        "abbreviation": "IA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Kansas",
+        "abbreviation": "KS",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Kentucky",
+        "abbreviation": "KY",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Louisiana",
+        "abbreviation": "LA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Maine",
+        "abbreviation": "ME",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Maryland",
+        "abbreviation": "MD",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Massachusetts",
+        "abbreviation": "MA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Michigan",
+        "abbreviation": "MI",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Minnesota",
+        "abbreviation": "MN",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Mississippi",
+        "abbreviation": "MS",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Missouri",
+        "abbreviation": "MO",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Montana",
+        "abbreviation": "MT",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Nebraska",
+        "abbreviation": "NE",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 5,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Nevada",
+        "abbreviation": "NV",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 2,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "New Hampshire",
+        "abbreviation": "NH",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "New Jersey",
+        "abbreviation": "NJ",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 1,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "New Mexico",
+        "abbreviation": "NM",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "New York",
+        "abbreviation": "NY",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 1,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "North Carolina",
+        "abbreviation": "NC",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 2,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "North Dakota",
+        "abbreviation": "ND",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Ohio",
+        "abbreviation": "OH",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Oklahoma",
+        "abbreviation": "OK",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Oregon",
+        "abbreviation": "OR",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Pennsylvania",
+        "abbreviation": "PA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Rhode Island",
+        "abbreviation": "RI",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "South Carolina",
+        "abbreviation": "SC",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "South Dakota",
+        "abbreviation": "SD",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Tennessee",
+        "abbreviation": "TN",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Texas",
+        "abbreviation": "TX",
+        "searched": true,
+        "queryCount": 14,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Utah",
+        "abbreviation": "UT",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Vermont",
+        "abbreviation": "VT",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Virginia",
+        "abbreviation": "VA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Washington",
+        "abbreviation": "WA",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "West Virginia",
+        "abbreviation": "WV",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Wisconsin",
+        "abbreviation": "WI",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Wyoming",
+        "abbreviation": "WY",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Puerto Rico",
+        "abbreviation": "PR",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Guam",
+        "abbreviation": "GU",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "U.S. Virgin Islands",
+        "abbreviation": "VI",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "American Samoa",
+        "abbreviation": "AS",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      },
+      {
+        "jurisdiction": "Northern Mariana Islands",
+        "abbreviation": "MP",
+        "searched": true,
+        "queryCount": 13,
+        "reportCount": 0,
+        "candidateCount": 0
+      }
+    ],
+    "sourceModeCounts": {
+      "officialOnly": 8,
+      "officialLocal": 12,
+      "supplemental": 8,
+      "needsReview": 2,
+      "everything": 20
+    },
+    "sourceRegistryCount": 8
+  },
+  "errors": [
+    {
+      "name": "GDELT DOC API U.S. 2026 discovery",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "HTTP 429"
+    }
+  ],
+  "latestMay16CanadaUpdateRepresented": true,
+  "notes": "Manual pre-commit update added Canada/British Columbia MV Hondius monitoring/testing evidence, kept event-wide deaths separate from location markers, and normalized presumptive/pending/inconclusive count fields."
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "sourceName": "Centers for Disease Control and Prevention",
+    "sourceType": "official",
+    "confidence": "high",
+    "tier": "Official",
+    "urls": [
+      "https://www.cdc.gov/hantavirus/situation-summary/index.html",
+      "https://www.cdc.gov/han/php/notices/han00528.html"
+    ],
+    "policy": "Official U.S. federal public-health source. Counts and advisory language can update event-level official snapshots."
+  },
+  {
+    "sourceName": "European Centre for Disease Prevention and Control",
+    "sourceType": "official",
+    "confidence": "high",
+    "tier": "Official",
+    "urls": [
+      "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    ],
+    "policy": "Official European CDC source. Daily outbreak counts are treated as high-confidence official event counts."
+  },
+  {
+    "sourceName": "World Health Organization",
+    "sourceType": "official",
+    "confidence": "high",
+    "tier": "Official",
+    "urls": [
+      "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+    ],
+    "policy": "Official international public-health source. Retained as count history when newer official updates supersede it."
+  },
+  {
+    "sourceName": "RIVM",
+    "sourceType": "national_health_agency",
+    "confidence": "high",
+    "tier": "National health agency",
+    "urls": [
+      "https://www.rivm.nl/en/hantavirus/current-information",
+      "https://www.rivm.nl/en/news/update-hantavirus",
+      "https://www.rivm.nl/en/hantavirus/andes-virus"
+    ],
+    "policy": "Dutch national public-health source. Can support national monitoring and advisory records."
+  },
+  {
+    "sourceName": "Nebraska Medicine / UNMC",
+    "sourceType": "health_system",
+    "confidence": "medium",
+    "tier": "Health system",
+    "urls": [
+      "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/"
+    ],
+    "policy": "Health-system source for monitoring, quarantine, treatment, and care-location evidence. Does not override official case counts."
+  },
+  {
+    "sourceName": "State and local health departments",
+    "sourceType": "state_health_department",
+    "confidence": "high",
+    "tier": "State/local public health",
+    "urls": [
+      "https://www.nj.gov/health/news/2026/20260508a.shtml",
+      "https://www.ncdhhs.gov/news/press-releases/2026/05/11/north-carolina-closely-monitoring-hantavirus"
+    ],
+    "policy": "State/local health agencies can support high-confidence local monitoring and advisory snapshots."
+  },
+  {
+    "sourceName": "CIDRAP",
+    "sourceType": "moderated",
+    "confidence": "medium",
+    "tier": "Moderated expert/public-health news",
+    "urls": [
+      "https://www.cidrap.umn.edu/misc-emerging-topics/hantavirus-outbreak-grows-11-cases-9-confirmed"
+    ],
+    "policy": "Expert public-health reporting. Used as moderated evidence and count snapshot history, not as an official public-health agency count."
+  },
+  {
+    "sourceName": "Supplemental news",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.cbsnews.com/atlanta/news/hantavirus-outbreak-cruise-ship-passenger-with-symptoms-at-emory-tests-negative-for-virus/",
+      "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb",
+      "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus",
+      "https://www.gmanetwork.com/news/topstories/world/987126/passengers-some-crew-begin-evacuating-from-hantavirus-hit-mv-hondius/story/"
+    ],
+    "policy": "News reports are evidence and confidence/context signals only. They do not become official confirmed counts unless corroborated by public-health agencies."
+  },
+  {
+    "sourceName": "GDELT DOC API",
+    "sourceType": "discovery",
+    "confidence": "unverified",
+    "tier": "Discovery",
+    "urls": [
+      "https://api.gdeltproject.org/api/v2/doc/doc"
+    ],
+    "policy": "Discovery-only lead generation. Items default to candidate review and are not counted as cases."
+  },
+  {
+    "sourceName": "Public Health Agency of Canada",
+    "sourceType": "national_health_agency",
+    "confidence": "high",
+    "tier": "National health agency",
+    "urls": [
+      "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation.html",
+      "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html"
+    ],
+    "policy": "Canadian national public-health source. Supports Canadian monitoring, quarantine, testing, and confirmation-status snapshots without overriding global outbreak counts."
+  },
+  {
+    "sourceName": "British Columbia Office of the Provincial Health Officer",
+    "sourceType": "state_health_department",
+    "confidence": "high",
+    "tier": "Provincial public health",
+    "urls": [
+      "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026HLTH0045-000526.htm"
+    ],
+    "policy": "Provincial public-health source for B.C. arrival, screening, isolation, and monitoring records."
+  },
+  {
+    "sourceName": "NBC News",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478",
+      "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/"
+    ],
+    "policy": "Supplemental reporting. Used as evidence for monitoring/testing details and never as an official confirmed count without public-health corroboration."
+  },
+  {
+    "sourceName": "Reuters",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/"
+    ],
+    "policy": "Supplemental wire reporting. Count claims are preserved as evidence snapshots and reconciled against official public-health sources."
+  },
+  {
+    "sourceName": "The Guardian",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
+    ],
+    "policy": "Supplemental reporting. Presumptive-positive and monitoring details remain separate from confirmed official counts."
+  }
+]

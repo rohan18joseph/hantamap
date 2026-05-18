@@ -1,0 +1,40 @@
+name: Refresh Hantamap Data
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh static data
+        run: npm run refresh:data
+
+      - name: Commit data changes
+        run: |
+          if git diff --quiet -- data reports; then
+            echo "No data or report changes."
+            exit 0
+          fi
+          git config user.name "hantamap-bot"
+          git config user.email "YOUR_GITHUB_EMAIL"
+          git add data reports
+          git commit -m "chore(data): refresh hantavirus intelligence feed"
+          git push

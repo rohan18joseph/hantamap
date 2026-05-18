@@ -1,0 +1,1460 @@
+[
+  {
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "majorCities": [
+      "Birmingham",
+      "Montgomery",
+      "Mobile"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Alabama\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Alabama\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Alabama\"",
+      "\"hantavirus\" \"2026\" \"Birmingham\"",
+      "\"hantavirus\" \"2026\" \"Montgomery\"",
+      "\"hantavirus\" \"2026\" \"Mobile\""
+    ]
+  },
+  {
+    "name": "Alaska",
+    "abbreviation": "AK",
+    "majorCities": [
+      "Anchorage",
+      "Fairbanks",
+      "Juneau"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Alaska\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Alaska\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Alaska\"",
+      "\"hantavirus\" \"2026\" \"Anchorage\"",
+      "\"hantavirus\" \"2026\" \"Fairbanks\"",
+      "\"hantavirus\" \"2026\" \"Juneau\""
+    ]
+  },
+  {
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "majorCities": [
+      "Phoenix",
+      "Tucson",
+      "Flagstaff"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Arizona\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Arizona\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Arizona\"",
+      "\"hantavirus\" \"2026\" \"Phoenix\"",
+      "\"hantavirus\" \"2026\" \"Tucson\"",
+      "\"hantavirus\" \"2026\" \"Flagstaff\""
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "majorCities": [
+      "Little Rock",
+      "Fayetteville",
+      "Fort Smith"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Arkansas\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Arkansas\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Arkansas\"",
+      "\"hantavirus\" \"2026\" \"Little Rock\"",
+      "\"hantavirus\" \"2026\" \"Fayetteville\"",
+      "\"hantavirus\" \"2026\" \"Fort Smith\""
+    ]
+  },
+  {
+    "name": "California",
+    "abbreviation": "CA",
+    "majorCities": [
+      "Los Angeles",
+      "San Francisco",
+      "Sacramento",
+      "San Diego"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"California\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"California\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"California\"",
+      "\"hantavirus\" \"death\" \"2026\" \"California\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"California\"",
+      "\"hantavirus\" \"county\" \"2026\" \"California\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"California\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"California\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"California\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"California\"",
+      "\"hantavirus\" \"2026\" \"Los Angeles\"",
+      "\"hantavirus\" \"2026\" \"San Francisco\"",
+      "\"hantavirus\" \"2026\" \"Sacramento\"",
+      "\"hantavirus\" \"2026\" \"San Diego\""
+    ]
+  },
+  {
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "majorCities": [
+      "Denver",
+      "Colorado Springs",
+      "Fort Collins"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Colorado\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Colorado\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Colorado\"",
+      "\"hantavirus\" \"2026\" \"Denver\"",
+      "\"hantavirus\" \"2026\" \"Colorado Springs\"",
+      "\"hantavirus\" \"2026\" \"Fort Collins\""
+    ]
+  },
+  {
+    "name": "Connecticut",
+    "abbreviation": "CT",
+    "majorCities": [
+      "Hartford",
+      "New Haven",
+      "Stamford"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Connecticut\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Connecticut\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Connecticut\"",
+      "\"hantavirus\" \"2026\" \"Hartford\"",
+      "\"hantavirus\" \"2026\" \"New Haven\"",
+      "\"hantavirus\" \"2026\" \"Stamford\""
+    ]
+  },
+  {
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "majorCities": [
+      "Wilmington",
+      "Dover",
+      "Newark"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Delaware\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Delaware\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Delaware\"",
+      "\"hantavirus\" \"2026\" \"Wilmington\"",
+      "\"hantavirus\" \"2026\" \"Dover\"",
+      "\"hantavirus\" \"2026\" \"Newark\""
+    ]
+  },
+  {
+    "name": "District of Columbia",
+    "abbreviation": "DC",
+    "majorCities": [
+      "Washington"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"death\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"county\" \"2026\" \"District of Columbia\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"District of Columbia\"",
+      "\"hantavirus\" \"2026\" \"Washington\""
+    ]
+  },
+  {
+    "name": "Florida",
+    "abbreviation": "FL",
+    "majorCities": [
+      "Miami",
+      "Orlando",
+      "Tampa",
+      "Jacksonville"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Florida\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Florida\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Florida\"",
+      "\"hantavirus\" \"2026\" \"Miami\"",
+      "\"hantavirus\" \"2026\" \"Orlando\"",
+      "\"hantavirus\" \"2026\" \"Tampa\"",
+      "\"hantavirus\" \"2026\" \"Jacksonville\""
+    ]
+  },
+  {
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "majorCities": [
+      "Atlanta",
+      "Augusta",
+      "Savannah"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Georgia\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Georgia\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Georgia\"",
+      "\"hantavirus\" \"2026\" \"Atlanta\"",
+      "\"hantavirus\" \"2026\" \"Augusta\"",
+      "\"hantavirus\" \"2026\" \"Savannah\""
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "majorCities": [
+      "Honolulu",
+      "Hilo",
+      "Kailua"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Hawaii\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Hawaii\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Hawaii\"",
+      "\"hantavirus\" \"2026\" \"Honolulu\"",
+      "\"hantavirus\" \"2026\" \"Hilo\"",
+      "\"hantavirus\" \"2026\" \"Kailua\""
+    ]
+  },
+  {
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "majorCities": [
+      "Boise",
+      "Idaho Falls",
+      "Twin Falls"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Idaho\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Idaho\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Idaho\"",
+      "\"hantavirus\" \"2026\" \"Boise\"",
+      "\"hantavirus\" \"2026\" \"Idaho Falls\"",
+      "\"hantavirus\" \"2026\" \"Twin Falls\""
+    ]
+  },
+  {
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "majorCities": [
+      "Chicago",
+      "Springfield",
+      "Peoria"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Illinois\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Illinois\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Illinois\"",
+      "\"hantavirus\" \"2026\" \"Chicago\"",
+      "\"hantavirus\" \"2026\" \"Springfield\"",
+      "\"hantavirus\" \"2026\" \"Peoria\""
+    ]
+  },
+  {
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "majorCities": [
+      "Indianapolis",
+      "Fort Wayne",
+      "South Bend"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Indiana\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Indiana\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Indiana\"",
+      "\"hantavirus\" \"2026\" \"Indianapolis\"",
+      "\"hantavirus\" \"2026\" \"Fort Wayne\"",
+      "\"hantavirus\" \"2026\" \"South Bend\""
+    ]
+  },
+  {
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "majorCities": [
+      "Des Moines",
+      "Cedar Rapids",
+      "Iowa City"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Iowa\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Iowa\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Iowa\"",
+      "\"hantavirus\" \"2026\" \"Des Moines\"",
+      "\"hantavirus\" \"2026\" \"Cedar Rapids\"",
+      "\"hantavirus\" \"2026\" \"Iowa City\""
+    ]
+  },
+  {
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "majorCities": [
+      "Wichita",
+      "Topeka",
+      "Kansas City"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Kansas\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Kansas\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Kansas\"",
+      "\"hantavirus\" \"2026\" \"Wichita\"",
+      "\"hantavirus\" \"2026\" \"Topeka\"",
+      "\"hantavirus\" \"2026\" \"Kansas City\""
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "abbreviation": "KY",
+    "majorCities": [
+      "Louisville",
+      "Lexington",
+      "Frankfort"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Kentucky\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Kentucky\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Kentucky\"",
+      "\"hantavirus\" \"2026\" \"Louisville\"",
+      "\"hantavirus\" \"2026\" \"Lexington\"",
+      "\"hantavirus\" \"2026\" \"Frankfort\""
+    ]
+  },
+  {
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "majorCities": [
+      "New Orleans",
+      "Baton Rouge",
+      "Shreveport"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Louisiana\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Louisiana\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Louisiana\"",
+      "\"hantavirus\" \"2026\" \"New Orleans\"",
+      "\"hantavirus\" \"2026\" \"Baton Rouge\"",
+      "\"hantavirus\" \"2026\" \"Shreveport\""
+    ]
+  },
+  {
+    "name": "Maine",
+    "abbreviation": "ME",
+    "majorCities": [
+      "Portland",
+      "Augusta",
+      "Bangor"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Maine\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Maine\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Maine\"",
+      "\"hantavirus\" \"2026\" \"Portland\"",
+      "\"hantavirus\" \"2026\" \"Augusta\"",
+      "\"hantavirus\" \"2026\" \"Bangor\""
+    ]
+  },
+  {
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "majorCities": [
+      "Baltimore",
+      "Annapolis",
+      "Frederick"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Maryland\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Maryland\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Maryland\"",
+      "\"hantavirus\" \"2026\" \"Baltimore\"",
+      "\"hantavirus\" \"2026\" \"Annapolis\"",
+      "\"hantavirus\" \"2026\" \"Frederick\""
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "majorCities": [
+      "Boston",
+      "Worcester",
+      "Springfield"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Massachusetts\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Massachusetts\"",
+      "\"hantavirus\" \"2026\" \"Boston\"",
+      "\"hantavirus\" \"2026\" \"Worcester\"",
+      "\"hantavirus\" \"2026\" \"Springfield\""
+    ]
+  },
+  {
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "majorCities": [
+      "Detroit",
+      "Lansing",
+      "Grand Rapids"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Michigan\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Michigan\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Michigan\"",
+      "\"hantavirus\" \"2026\" \"Detroit\"",
+      "\"hantavirus\" \"2026\" \"Lansing\"",
+      "\"hantavirus\" \"2026\" \"Grand Rapids\""
+    ]
+  },
+  {
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "majorCities": [
+      "Minneapolis",
+      "Saint Paul",
+      "Duluth"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Minnesota\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Minnesota\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Minnesota\"",
+      "\"hantavirus\" \"2026\" \"Minneapolis\"",
+      "\"hantavirus\" \"2026\" \"Saint Paul\"",
+      "\"hantavirus\" \"2026\" \"Duluth\""
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "majorCities": [
+      "Jackson",
+      "Gulfport",
+      "Hattiesburg"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Mississippi\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Mississippi\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Mississippi\"",
+      "\"hantavirus\" \"2026\" \"Jackson\"",
+      "\"hantavirus\" \"2026\" \"Gulfport\"",
+      "\"hantavirus\" \"2026\" \"Hattiesburg\""
+    ]
+  },
+  {
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "majorCities": [
+      "Kansas City",
+      "St. Louis",
+      "Springfield"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Missouri\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Missouri\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Missouri\"",
+      "\"hantavirus\" \"2026\" \"Kansas City\"",
+      "\"hantavirus\" \"2026\" \"St. Louis\"",
+      "\"hantavirus\" \"2026\" \"Springfield\""
+    ]
+  },
+  {
+    "name": "Montana",
+    "abbreviation": "MT",
+    "majorCities": [
+      "Billings",
+      "Missoula",
+      "Helena"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Montana\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Montana\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Montana\"",
+      "\"hantavirus\" \"2026\" \"Billings\"",
+      "\"hantavirus\" \"2026\" \"Missoula\"",
+      "\"hantavirus\" \"2026\" \"Helena\""
+    ]
+  },
+  {
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "majorCities": [
+      "Omaha",
+      "Lincoln",
+      "Grand Island"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Nebraska\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Nebraska\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Nebraska\"",
+      "\"hantavirus\" \"2026\" \"Omaha\"",
+      "\"hantavirus\" \"2026\" \"Lincoln\"",
+      "\"hantavirus\" \"2026\" \"Grand Island\""
+    ]
+  },
+  {
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "majorCities": [
+      "Las Vegas",
+      "Reno",
+      "Carson City"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Nevada\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Nevada\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Nevada\"",
+      "\"hantavirus\" \"2026\" \"Las Vegas\"",
+      "\"hantavirus\" \"2026\" \"Reno\"",
+      "\"hantavirus\" \"2026\" \"Carson City\""
+    ]
+  },
+  {
+    "name": "New Hampshire",
+    "abbreviation": "NH",
+    "majorCities": [
+      "Manchester",
+      "Concord",
+      "Nashua"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"death\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"county\" \"2026\" \"New Hampshire\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"New Hampshire\"",
+      "\"hantavirus\" \"2026\" \"Manchester\"",
+      "\"hantavirus\" \"2026\" \"Concord\"",
+      "\"hantavirus\" \"2026\" \"Nashua\""
+    ]
+  },
+  {
+    "name": "New Jersey",
+    "abbreviation": "NJ",
+    "majorCities": [
+      "Newark",
+      "Trenton",
+      "Jersey City"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"New Jersey\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"death\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"county\" \"2026\" \"New Jersey\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"New Jersey\"",
+      "\"hantavirus\" \"2026\" \"Newark\"",
+      "\"hantavirus\" \"2026\" \"Trenton\"",
+      "\"hantavirus\" \"2026\" \"Jersey City\""
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "majorCities": [
+      "Albuquerque",
+      "Santa Fe",
+      "Las Cruces"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"New Mexico\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"death\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"county\" \"2026\" \"New Mexico\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"New Mexico\"",
+      "\"hantavirus\" \"2026\" \"Albuquerque\"",
+      "\"hantavirus\" \"2026\" \"Santa Fe\"",
+      "\"hantavirus\" \"2026\" \"Las Cruces\""
+    ]
+  },
+  {
+    "name": "New York",
+    "abbreviation": "NY",
+    "majorCities": [
+      "New York",
+      "Albany",
+      "Buffalo"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"New York\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"death\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"county\" \"2026\" \"New York\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"2026\" \"New York\"",
+      "\"hantavirus\" \"2026\" \"Albany\"",
+      "\"hantavirus\" \"2026\" \"Buffalo\""
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "abbreviation": "NC",
+    "majorCities": [
+      "Charlotte",
+      "Raleigh",
+      "Durham"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"North Carolina\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"death\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"county\" \"2026\" \"North Carolina\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"North Carolina\"",
+      "\"hantavirus\" \"2026\" \"Charlotte\"",
+      "\"hantavirus\" \"2026\" \"Raleigh\"",
+      "\"hantavirus\" \"2026\" \"Durham\""
+    ]
+  },
+  {
+    "name": "North Dakota",
+    "abbreviation": "ND",
+    "majorCities": [
+      "Fargo",
+      "Bismarck",
+      "Grand Forks"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"North Dakota\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"death\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"county\" \"2026\" \"North Dakota\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"North Dakota\"",
+      "\"hantavirus\" \"2026\" \"Fargo\"",
+      "\"hantavirus\" \"2026\" \"Bismarck\"",
+      "\"hantavirus\" \"2026\" \"Grand Forks\""
+    ]
+  },
+  {
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "majorCities": [
+      "Columbus",
+      "Cleveland",
+      "Cincinnati"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Ohio\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Ohio\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Ohio\"",
+      "\"hantavirus\" \"2026\" \"Columbus\"",
+      "\"hantavirus\" \"2026\" \"Cleveland\"",
+      "\"hantavirus\" \"2026\" \"Cincinnati\""
+    ]
+  },
+  {
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "majorCities": [
+      "Oklahoma City",
+      "Tulsa",
+      "Norman"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Oklahoma\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Oklahoma\"",
+      "\"hantavirus\" \"2026\" \"Oklahoma City\"",
+      "\"hantavirus\" \"2026\" \"Tulsa\"",
+      "\"hantavirus\" \"2026\" \"Norman\""
+    ]
+  },
+  {
+    "name": "Oregon",
+    "abbreviation": "OR",
+    "majorCities": [
+      "Portland",
+      "Salem",
+      "Eugene"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Oregon\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Oregon\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Oregon\"",
+      "\"hantavirus\" \"2026\" \"Portland\"",
+      "\"hantavirus\" \"2026\" \"Salem\"",
+      "\"hantavirus\" \"2026\" \"Eugene\""
+    ]
+  },
+  {
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "majorCities": [
+      "Philadelphia",
+      "Pittsburgh",
+      "Harrisburg"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Pennsylvania\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Pennsylvania\"",
+      "\"hantavirus\" \"2026\" \"Philadelphia\"",
+      "\"hantavirus\" \"2026\" \"Pittsburgh\"",
+      "\"hantavirus\" \"2026\" \"Harrisburg\""
+    ]
+  },
+  {
+    "name": "Rhode Island",
+    "abbreviation": "RI",
+    "majorCities": [
+      "Providence",
+      "Warwick",
+      "Cranston"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Rhode Island\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Rhode Island\"",
+      "\"hantavirus\" \"2026\" \"Providence\"",
+      "\"hantavirus\" \"2026\" \"Warwick\"",
+      "\"hantavirus\" \"2026\" \"Cranston\""
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "majorCities": [
+      "Charleston",
+      "Columbia",
+      "Greenville"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"South Carolina\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"death\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"county\" \"2026\" \"South Carolina\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"South Carolina\"",
+      "\"hantavirus\" \"2026\" \"Charleston\"",
+      "\"hantavirus\" \"2026\" \"Columbia\"",
+      "\"hantavirus\" \"2026\" \"Greenville\""
+    ]
+  },
+  {
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "majorCities": [
+      "Sioux Falls",
+      "Rapid City",
+      "Pierre"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"South Dakota\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"death\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"county\" \"2026\" \"South Dakota\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"South Dakota\"",
+      "\"hantavirus\" \"2026\" \"Sioux Falls\"",
+      "\"hantavirus\" \"2026\" \"Rapid City\"",
+      "\"hantavirus\" \"2026\" \"Pierre\""
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "majorCities": [
+      "Nashville",
+      "Memphis",
+      "Knoxville"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Tennessee\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Tennessee\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Tennessee\"",
+      "\"hantavirus\" \"2026\" \"Nashville\"",
+      "\"hantavirus\" \"2026\" \"Memphis\"",
+      "\"hantavirus\" \"2026\" \"Knoxville\""
+    ]
+  },
+  {
+    "name": "Texas",
+    "abbreviation": "TX",
+    "majorCities": [
+      "Houston",
+      "Dallas",
+      "Austin",
+      "San Antonio"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Texas\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Texas\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Texas\"",
+      "\"hantavirus\" \"2026\" \"Houston\"",
+      "\"hantavirus\" \"2026\" \"Dallas\"",
+      "\"hantavirus\" \"2026\" \"Austin\"",
+      "\"hantavirus\" \"2026\" \"San Antonio\""
+    ]
+  },
+  {
+    "name": "Utah",
+    "abbreviation": "UT",
+    "majorCities": [
+      "Salt Lake City",
+      "Provo",
+      "St. George"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Utah\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Utah\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Utah\"",
+      "\"hantavirus\" \"2026\" \"Salt Lake City\"",
+      "\"hantavirus\" \"2026\" \"Provo\"",
+      "\"hantavirus\" \"2026\" \"St. George\""
+    ]
+  },
+  {
+    "name": "Vermont",
+    "abbreviation": "VT",
+    "majorCities": [
+      "Burlington",
+      "Montpelier",
+      "Rutland"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Vermont\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Vermont\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Vermont\"",
+      "\"hantavirus\" \"2026\" \"Burlington\"",
+      "\"hantavirus\" \"2026\" \"Montpelier\"",
+      "\"hantavirus\" \"2026\" \"Rutland\""
+    ]
+  },
+  {
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "majorCities": [
+      "Richmond",
+      "Norfolk",
+      "Virginia Beach"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Virginia\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Virginia\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Virginia\"",
+      "\"hantavirus\" \"2026\" \"Richmond\"",
+      "\"hantavirus\" \"2026\" \"Norfolk\"",
+      "\"hantavirus\" \"2026\" \"Virginia Beach\""
+    ]
+  },
+  {
+    "name": "Washington",
+    "abbreviation": "WA",
+    "majorCities": [
+      "Seattle",
+      "Spokane",
+      "Olympia"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Washington\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Washington\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Washington\"",
+      "\"hantavirus\" \"2026\" \"Seattle\"",
+      "\"hantavirus\" \"2026\" \"Spokane\"",
+      "\"hantavirus\" \"2026\" \"Olympia\""
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "abbreviation": "WV",
+    "majorCities": [
+      "Charleston",
+      "Morgantown",
+      "Huntington"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"West Virginia\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"death\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"county\" \"2026\" \"West Virginia\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"West Virginia\"",
+      "\"hantavirus\" \"2026\" \"Charleston\"",
+      "\"hantavirus\" \"2026\" \"Morgantown\"",
+      "\"hantavirus\" \"2026\" \"Huntington\""
+    ]
+  },
+  {
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "majorCities": [
+      "Milwaukee",
+      "Madison",
+      "Green Bay"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Wisconsin\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Wisconsin\"",
+      "\"hantavirus\" \"2026\" \"Milwaukee\"",
+      "\"hantavirus\" \"2026\" \"Madison\"",
+      "\"hantavirus\" \"2026\" \"Green Bay\""
+    ]
+  },
+  {
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "majorCities": [
+      "Cheyenne",
+      "Casper",
+      "Laramie"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Wyoming\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Wyoming\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Wyoming\"",
+      "\"hantavirus\" \"2026\" \"Cheyenne\"",
+      "\"hantavirus\" \"2026\" \"Casper\"",
+      "\"hantavirus\" \"2026\" \"Laramie\""
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "abbreviation": "PR",
+    "majorCities": [
+      "San Juan",
+      "Ponce",
+      "Mayaguez"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Puerto Rico\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Puerto Rico\"",
+      "\"hantavirus\" \"2026\" \"San Juan\"",
+      "\"hantavirus\" \"2026\" \"Ponce\"",
+      "\"hantavirus\" \"2026\" \"Mayaguez\""
+    ]
+  },
+  {
+    "name": "Guam",
+    "abbreviation": "GU",
+    "majorCities": [
+      "Hagatna",
+      "Dededo",
+      "Tamuning"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Guam\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Guam\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Guam\"",
+      "\"hantavirus\" \"2026\" \"Hagatna\"",
+      "\"hantavirus\" \"2026\" \"Dededo\"",
+      "\"hantavirus\" \"2026\" \"Tamuning\""
+    ]
+  },
+  {
+    "name": "U.S. Virgin Islands",
+    "abbreviation": "VI",
+    "majorCities": [
+      "Charlotte Amalie",
+      "Christiansted",
+      "Cruz Bay"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"death\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"county\" \"2026\" \"U.S. Virgin Islands\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"U.S. Virgin Islands\"",
+      "\"hantavirus\" \"2026\" \"Charlotte Amalie\"",
+      "\"hantavirus\" \"2026\" \"Christiansted\"",
+      "\"hantavirus\" \"2026\" \"Cruz Bay\""
+    ]
+  },
+  {
+    "name": "American Samoa",
+    "abbreviation": "AS",
+    "majorCities": [
+      "Pago Pago",
+      "Tafuna",
+      "Fagatogo"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"American Samoa\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"death\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"county\" \"2026\" \"American Samoa\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"American Samoa\"",
+      "\"hantavirus\" \"2026\" \"Pago Pago\"",
+      "\"hantavirus\" \"2026\" \"Tafuna\"",
+      "\"hantavirus\" \"2026\" \"Fagatogo\""
+    ]
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "abbreviation": "MP",
+    "majorCities": [
+      "Saipan",
+      "Tinian",
+      "Rota"
+    ],
+    "stateHealthDepartmentSearchTerms": [
+      "\"hantavirus\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus pulmonary syndrome\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"confirmed case\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"death\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"health department\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"county\" \"2026\" \"Northern Mariana Islands\""
+    ],
+    "localNewsSearchTerms": [
+      "\"hantavirus\" \"hospital\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"monitoring\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"quarantine\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"treated\" \"2026\" \"Northern Mariana Islands\"",
+      "\"hantavirus\" \"2026\" \"Saipan\"",
+      "\"hantavirus\" \"2026\" \"Tinian\"",
+      "\"hantavirus\" \"2026\" \"Rota\""
+    ]
+  }
+]
