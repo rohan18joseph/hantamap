@@ -4,11 +4,40 @@ Hantamap is an experimental web app that organizes 2026 hantavirus-related repor
 
 This is not an official public-health tool. The data is best-effort, may be incomplete, and should not be used for medical, travel, or safety decisions.
 
+Live site: [hantamap.rohanjoseph.net](https://hantamap.rohanjoseph.net)
+
+## This Is Just a Project
+
+Hantamap is a personal software and data-visualization project. It is meant to show how public reports can be structured, labeled, and mapped in a cautious way. It is not a public-health product, not an official information source, and not something anyone should rely on for medical, travel, workplace, or emergency decisions.
+
+The project is useful as a prototype because it tries to separate event data from article data, show uncertainty clearly, and avoid turning news coverage into case counts. That does not make the underlying data complete or authoritative.
+
 ## What This Project Is
 
 Hantamap is a static, low-cost public-health data visualization prototype. It uses event-level records for maps and counts, and report-level records as evidence. The core idea is simple: articles are evidence, events are what get mapped, and people counts should not be double-counted just because several sources cover the same event.
 
 The current v1 scope is limited to 2026 hantavirus and Andes-virus reporting.
+
+## Web App Flow
+
+```mermaid
+flowchart LR
+  sources["Official sources, health-system updates, local reports, and supplemental news"]
+  ingest["Static refresh scripts"]
+  evidence["Evidence reports\nreports.json and candidate-reports.json"]
+  events["Event clusters\nevents.json"]
+  map["Interactive maps\nsource filters and event tabs"]
+  risk["Risk Lens\nlocation-based public-health model"]
+  reports["Reports and methodology\nsource provenance and limitations"]
+
+  sources --> ingest
+  ingest --> evidence
+  evidence --> events
+  events --> map
+  events --> risk
+  evidence --> reports
+  events --> reports
+```
 
 ## What This Project Is Not
 
