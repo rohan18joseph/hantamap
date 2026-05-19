@@ -134,9 +134,9 @@
     "confidence": "medium",
     "tier": "Supplemental",
     "urls": [
-      "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/"
+      "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/"
     ],
-    "policy": "Supplemental wire reporting. Count claims are preserved as evidence snapshots and reconciled against official public-health sources."
+    "policy": "Supplemental wire evidence for U.S. monitoring baselines. CDC statements inside Reuters are noted but not promoted to official unless separately sourced."
   },
   {
     "sourceName": "The Guardian",
@@ -147,5 +147,45 @@
       "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
     ],
     "policy": "Supplemental reporting. Presumptive-positive and monitoring details remain separate from confirmed official counts."
+  },
+  {
+    "sourceName": "Axios Seattle",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental local news",
+    "urls": [
+      "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+    ],
+    "policy": "Local news evidence for Washington/King County MV Hondius monitoring; Washington DOH and King County public-health mentions are preserved in notes."
+  },
+  {
+    "sourceName": "Associated Press",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9"
+    ],
+    "policy": "Supplemental wire evidence and count snapshot history. Does not overwrite official WHO/CDC/ECDC counts."
+  },
+  {
+    "sourceName": "Douglas County Health Department / CDPHE",
+    "sourceType": "local_health_department",
+    "confidence": "high",
+    "tier": "Local/state public health",
+    "urls": [
+      "https://www.douglasco.gov/statement-on-confirmed-hantavirus-death-in-douglas-county/"
+    ],
+    "policy": "Official local/state public-health evidence for the separate Douglas County Colorado Sin Nombre hantavirus fatal case."
+  },
+  {
+    "sourceName": "People",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://people.com/hantavirus-death-confirmed-in-colorado-11977742"
+    ],
+    "policy": "Supplemental news evidence for the Colorado fatal case; official local-health statement remains primary."
   }
 ]

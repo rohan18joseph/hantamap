@@ -54,11 +54,67 @@
         "latitude": 41.2554,
         "longitude": -95.9758,
         "locationType": "quarantine_location",
-        "description": "U.S. repatriation, quarantine, and treatment location for passengers linked to MV Hondius.",
+        "description": "U.S. repatriation, quarantine, monitoring, and treatment location for passengers linked to MV Hondius. AP reported 18 passengers at the University of Nebraska Medical Center special unit, including two under CDC quarantine orders. These are location-specific response counts, not confirmed U.S. Andes-virus cases.",
         "sourceUrls": [
           "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-          "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html"
-        ]
+          "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
+          "https://apnews.com/article/302d45d77aac4d55aa76c43d79f54ec9",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "sourceNames": [
+          "Nebraska Medicine / UNMC",
+          "Associated Press",
+          "Reuters",
+          "Axios Seattle"
+        ],
+        "locationPrecision": "exact",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 2,
+          "monitored": 18,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 18
+        },
+        "locationCounts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 2,
+          "monitored": 18,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 18
+        },
+        "countSourceUrls": [
+          "https://apnews.com/article/302d45d77aac4d55aa76c43d79f54ec9",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "countNotes": "AP reports 18 MV Hondius passengers at UNMC, with two under formal CDC quarantine orders. Reuters reports 18 monitored/quarantined in Nebraska and Atlanta; Axios reports one King County resident monitored at the Nebraska quarantine center."
       },
       {
         "locationId": "emory-university-hospital-atlanta",
@@ -500,6 +556,133 @@
           "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/"
         ],
         "countNotes": "U.S.-scope monitoring count; not a confirmed U.S. Andes-virus case count."
+      },
+      {
+        "locationId": "mv-hondius-andes-2026__washington-state__monitoring",
+        "name": "Washington state MV Hondius monitoring",
+        "city": null,
+        "state": "WA",
+        "country": "USA",
+        "latitude": 47.4009,
+        "longitude": -121.4905,
+        "locationType": "monitoring_location",
+        "description": "Axios Seattle reported six Washington residents were being monitored after possible Andes-virus exposure linked to MV Hondius, with all six asymptomatic as of May 18 per Washington Department of Health. This is exposure monitoring, not confirmed infection.",
+        "sourceUrls": [
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "sourceNames": [
+          "Axios Seattle",
+          "Washington Department of Health"
+        ],
+        "locationPrecision": "state",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 6,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 6,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 6
+        },
+        "locationCounts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 6,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 6,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 6
+        },
+        "countSourceUrls": [
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "countNotes": "Washington Department of Health count as reported by Axios Seattle: six Washington residents monitored, all asymptomatic."
+      },
+      {
+        "locationId": "mv-hondius-andes-2026__king-county-wa__monitoring",
+        "name": "King County, Washington monitoring",
+        "city": null,
+        "state": "WA",
+        "country": "USA",
+        "latitude": 47.548,
+        "longitude": -121.9836,
+        "locationType": "monitoring_location",
+        "description": "Axios Seattle reported four of the monitored Washington residents were from King County. One King County resident from the ship was monitored at the national quarantine center in Nebraska. This is monitoring/exposure response, not a confirmed case.",
+        "sourceUrls": [
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "sourceNames": [
+          "Axios Seattle",
+          "Public Health - Seattle & King County",
+          "Washington Department of Health"
+        ],
+        "locationPrecision": "county",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 4,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 4,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 4
+        },
+        "locationCounts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 4,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 4,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 4
+        },
+        "countSourceUrls": [
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+        ],
+        "countNotes": "King County location-specific monitoring count reported by Axios Seattle; not a confirmed infection count."
       }
     ],
     "latestOfficialCounts": {
@@ -1018,6 +1201,90 @@
           "totalReported": 41
         },
         "notes": "NBC-style reporting said CDC was monitoring at least 41 people across 16 U.S. states with no known U.S. cases; this is monitoring/exposure-response evidence, not a confirmed U.S. Andes-virus case count."
+      },
+      {
+        "sourceName": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-19",
+        "counts": {
+          "confirmed": 8,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 3,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 2,
+          "monitored": 18,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 11
+        },
+        "notes": "AP reported 11 MV Hondius-linked hantavirus cases, including three deaths and eight lab-confirmed cases. AP also reported 18 passengers at the UNMC special unit in Omaha, with two under CDC quarantine orders. This supplemental snapshot differs from WHO/ECDC/CIDRAP histories and does not overwrite official counts."
+      },
+      {
+        "sourceName": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-14",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": 1,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 18,
+          "monitored": 41,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 41
+        },
+        "notes": "Reuters reported CDC statements that 41 people in the U.S. were being monitored, including 18 in Nebraska and Atlanta, with no confirmed U.S. Andes-virus cases; a previously mild-positive result was later described as inconclusive and pending retest."
+      },
+      {
+        "sourceName": "Axios Seattle",
+        "sourceUrl": "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-18",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 6,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 6,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 6
+        },
+        "notes": "Axios Seattle reported Washington Department of Health information that six Washington residents, including four from King County, were being monitored after MV Hondius-related exposure and remained asymptomatic as of May 18."
       }
     ],
     "sourceTiersAvailable": [
@@ -1054,10 +1321,13 @@
       "nbc-2026-canada-hondius-presumptive-positive",
       "reuters-2026-canada-hondius-positive",
       "guardian-2026-canada-hondius-presumptive-positive",
-      "nbc-2026-us-41-monitored-no-known-cases"
+      "nbc-2026-us-41-monitored-no-known-cases",
+      "axios-seattle-2026-washington-mv-hondius-monitoring",
+      "ap-2026-mv-hondius-nebraska-quarantine-orders",
+      "reuters-2026-us-41-monitored-no-confirmed-cases"
     ],
-    "lastUpdated": "2026-05-16",
-    "summary": "Canonical event cluster for the 2026 MV Hondius Andes virus outbreak and related public-health monitoring, quarantine, treatment, testing, and local-health follow-up. Counts are not summed across articles. Location markers show location-specific counts; event-wide death counts stay in event-wide sections only."
+    "lastUpdated": "2026-05-19",
+    "summary": "Canonical event cluster for the 2026 MV Hondius Andes virus outbreak and related public-health monitoring, quarantine, treatment, testing, and local-health follow-up. Counts are not summed across articles. Location markers show location-specific counts; event-wide death counts stay in event-wide sections only. Latest U.S. monitoring updates remain monitoring/exposure response, not confirmed U.S. Andes-virus cases."
   },
   {
     "eventId": "nevada-quad-county-hantavirus-2026",
@@ -1314,5 +1584,199 @@
     ],
     "lastUpdated": "2026-04-23",
     "summary": "Official U.S. surveillance context for 2026 Hantavirus Pulmonary Syndrome. Counts remain null until table extraction is verified to avoid overstating surveillance data."
+  },
+  {
+    "eventId": "colorado-douglas-county-sin-nombre-hantavirus-2026",
+    "eventName": "Douglas County Colorado fatal Sin Nombre hantavirus case",
+    "disease": "Hantavirus",
+    "virusType": "Sin Nombre virus",
+    "transmissionType": "rodentborne",
+    "eventStatus": "confirmed",
+    "year": 2026,
+    "primaryLocation": {
+      "name": "Douglas County, Colorado",
+      "city": null,
+      "state": "CO",
+      "country": "USA",
+      "latitude": 39.2587,
+      "longitude": -104.9389,
+      "locationType": "case_detection"
+    },
+    "locations": [
+      {
+        "locationId": "colorado-douglas-county-sin-nombre-hantavirus-2026__douglas-county-co__case-detection",
+        "name": "Douglas County, Colorado",
+        "city": null,
+        "state": "CO",
+        "country": "USA",
+        "latitude": 39.2587,
+        "longitude": -104.9389,
+        "locationType": "case_detection",
+        "description": "Douglas County and CDPHE confirmed an adult Douglas County resident contracted Sin Nombre hantavirus and died. This rodentborne local case is not linked to the MV Hondius Andes-virus outbreak.",
+        "sourceUrls": [
+          "https://www.douglasco.gov/statement-on-confirmed-hantavirus-death-in-douglas-county/",
+          "https://people.com/hantavirus-death-confirmed-in-colorado-11977742"
+        ],
+        "sourceNames": [
+          "Douglas County Health Department / CDPHE",
+          "People"
+        ],
+        "locationPrecision": "county",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 1,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 1
+        },
+        "locationCounts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 1,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 1
+        },
+        "countSourceUrls": [
+          "https://www.douglasco.gov/statement-on-confirmed-hantavirus-death-in-douglas-county/",
+          "https://people.com/hantavirus-death-confirmed-in-colorado-11977742"
+        ],
+        "countNotes": "Location-specific confirmed fatal Sin Nombre hantavirus case. This is a separate rodentborne Colorado event and not linked to MV Hondius."
+      }
+    ],
+    "latestOfficialCounts": {
+      "confirmed": 1,
+      "presumptivePositive": null,
+      "pendingConfirmation": null,
+      "inconclusive": null,
+      "suspected": null,
+      "probable": null,
+      "screened": null,
+      "symptomatic": null,
+      "asymptomatic": null,
+      "negative": null,
+      "deaths": 1,
+      "hospitalized": null,
+      "critical": null,
+      "quarantined": null,
+      "monitored": null,
+      "recovered": null,
+      "clearedNegative": null,
+      "totalReported": 1
+    },
+    "latestSupplementalCounts": {
+      "confirmed": 1,
+      "presumptivePositive": null,
+      "pendingConfirmation": null,
+      "inconclusive": null,
+      "suspected": null,
+      "probable": null,
+      "screened": null,
+      "symptomatic": null,
+      "asymptomatic": null,
+      "negative": null,
+      "deaths": 1,
+      "hospitalized": null,
+      "critical": null,
+      "quarantined": null,
+      "monitored": null,
+      "recovered": null,
+      "clearedNegative": null,
+      "totalReported": 1
+    },
+    "countSnapshots": [
+      {
+        "sourceName": "Douglas County Health Department / CDPHE",
+        "sourceUrl": "https://www.douglasco.gov/statement-on-confirmed-hantavirus-death-in-douglas-county/",
+        "sourceType": "local_health_department",
+        "confidence": "high",
+        "reportedAt": "2026-05-16",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 1,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 1
+        },
+        "notes": "Douglas County shared a CDPHE/Douglas County Health Department statement confirming a Douglas County adult hantavirus case resulting in death; preliminary evidence suggests local rodent exposure and the case is not linked to MV Hondius."
+      },
+      {
+        "sourceName": "People",
+        "sourceUrl": "https://people.com/hantavirus-death-confirmed-in-colorado-11977742",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-19",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 1,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 1
+        },
+        "notes": "People reported the confirmed Douglas County fatal case and cited Douglas County/CDPHE. Supplemental evidence only; official local-health statement remains the primary source."
+      }
+    ],
+    "sourceTiersAvailable": [
+      "local_health_department",
+      "supplemental_news"
+    ],
+    "corroborationStatus": "corroborated",
+    "reportIds": [
+      "douglas-county-cdphe-2026-fatal-hantavirus",
+      "people-2026-colorado-hantavirus-death"
+    ],
+    "lastUpdated": "2026-05-19",
+    "summary": "Separate 2026 Douglas County, Colorado confirmed fatal Sin Nombre hantavirus case. It is rodentborne, local to Colorado, and unrelated to the MV Hondius Andes-virus outbreak."
   }
 ]

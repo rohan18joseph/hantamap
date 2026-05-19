@@ -98,7 +98,7 @@ export function buildEventClustersFromReports(events: HantamapEvent[], reports: 
         summary: description || event.summary,
         corroborationStatus: event.corroborationStatus
       });
-      addCategories(draft, categoriesFromEvent(event, location.locationType, countsForLocation));
+      addCategories(draft, categoriesFromEvent(event, location.locationType, countsForLocation, index === 0));
       if (countsForLocation) mergeCountsInto(draft.counts, countsForLocation);
       if (index === 0) mergeSources(draft, event.countSnapshots);
       draft.eventWideCountSources.push(...event.countSnapshots);
@@ -264,9 +264,10 @@ function draftToReport(draft: ClusterDraft): HantamapReport {
   };
 }
 
-function categoriesFromEvent(event: HantamapEvent, role: LocationType, counts?: CaseCounts): EventCategory[] {
+function categoriesFromEvent(event: HantamapEvent, role: LocationType, counts?: CaseCounts, isPrimaryEventLocation = false): EventCategory[] {
   const categories: EventCategory[] = [];
-  if (event.eventStatus === "confirmed") categories.push("confirmed_cluster");
+  if (event.eventStatus === "confirmed" && isPrimaryEventLocation) categories.push("confirmed_cluster");
+  if ((counts?.confirmed || 0) > 0) categories.push("confirmed_case");
   if (event.eventStatus === "suspected") categories.push("suspected_case");
   if (event.eventStatus === "probable") categories.push("probable_case");
   if (event.eventStatus === "active_advisory") categories.push("advisory");

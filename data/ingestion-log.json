@@ -615,5 +615,8 @@
       "discoveredUrls": 0,
       "error": "fetch failed"
     }
-  ]
+  ],
+  "latestMay16CanadaUpdateRepresented": true,
+  "notes": "Manual May 19 refresh added Washington/King County monitoring, AP Nebraska quarantine orders and supplemental event snapshot, Reuters U.S. 41 monitored baseline, and a separate Douglas County Colorado fatal Sin Nombre hantavirus event.",
+  "latestMay19MonitoringAndColoradoUpdateRepresented": true
 }
