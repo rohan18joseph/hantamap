@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-05-16T16:00:00-04:00
+Last refresh timestamp: 2026-05-19T12:22:03.142Z
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -12,12 +12,6 @@ Last refresh timestamp: 2026-05-16T16:00:00-04:00
 - CDC NNDSS 2026 HPS surveillance signal (monitoring) - https://stacks.cdc.gov/view/cdc/256226
 
 ## Supplemental Updates
-- Public Health Agency of Canada: one quarantined high-risk person presumptively positive with national-lab confirmation pending; Canada general public risk remains low (high) - https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html
-- British Columbia Office of the Provincial Health Officer: four Canadians from MV Hondius isolated and monitored in B.C. (high) - https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026HLTH0045-000526.htm
-- NBC News: Canadian MV Hondius passenger hospitalized in Victoria after positive/presumptive test (medium) - https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478
-- Reuters: Canadian tests positive after MV Hondius cruise ship outbreak (medium) - https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/
-- The Guardian: Canada confirms first hantavirus case in isolation in British Columbia, described as presumptive pending confirmation (medium) - https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia
-- NBC News/local affiliate: CDC monitoring at least 41 people in the U.S.; no known U.S. cases reported (medium) - https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/
 - Axios Atlanta: cruise passengers monitored at Emory (low) - https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit
 - CBS Atlanta: symptomatic cruise passenger at Emory tests negative (medium) - https://www.cbsnews.com/atlanta/news/hantavirus-outbreak-cruise-ship-passenger-with-symptoms-at-emory-tests-negative-for-virus/
 - Guardian: evacuated US and French MV Hondius passengers test positive (medium) - https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus
@@ -31,8 +25,6 @@ Last refresh timestamp: 2026-05-16T16:00:00-04:00
 - Events after deduplication: 3
 - U.S. events: 3
 - U.S. reports: 15
-- Canada locations represented: Victoria hospital assessment, Vancouver Island isolation/monitoring, Yukon origin context
-- Canada presumptive/pending counts: 1 presumptive positive, 1 pending confirmation; location-level deaths remain 0
 - Filtered out old reports: 0
 - All-state discovery jurisdictions: 56
 
@@ -49,4 +41,4 @@ Last refresh timestamp: 2026-05-16T16:00:00-04:00
 - ok: North Carolina DHHS MV Hondius passenger update (https://www.ncdhhs.gov/news/press-releases/2026/05/11/north-carolina-closely-monitoring-hantavirus)
 - ok: CBS Atlanta Emory negative test update (https://www.cbsnews.com/atlanta/news/hantavirus-outbreak-cruise-ship-passenger-with-symptoms-at-emory-tests-negative-for-virus/)
 - ok: Guardian evacuated passengers update (https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus)
-- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - HTTP 429
+- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - fetch failed
