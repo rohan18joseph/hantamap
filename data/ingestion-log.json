@@ -1,5 +1,5 @@
 {
-  "lastRefresh": "2026-05-19T12:22:03.142Z",
+  "lastRefresh": "2026-05-20T12:05:10.014Z",
   "sourceResults": [
     {
       "name": "WHO Disease Outbreak News DON600",
@@ -103,7 +103,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "HTTP 429"
     }
   ],
   "newCandidateReports": [],
@@ -135,8 +135,8 @@
       "Guardian evacuated passengers update": 1,
       "GDELT DOC API U.S. 2026 discovery": 0
     },
-    "eventsAfterDeduplication": 3,
-    "usEvents": 3,
+    "eventsAfterDeduplication": 4,
+    "usEvents": 4,
     "usReports": 15,
     "filteredOutOldReports": 0,
     "sourceTypeBreakdown": {
@@ -604,7 +604,7 @@
       "needsReview": 2,
       "everything": 20
     },
-    "sourceRegistryCount": 14
+    "sourceRegistryCount": 18
   },
   "errors": [
     {
@@ -613,10 +613,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "HTTP 429"
     }
-  ],
-  "latestMay16CanadaUpdateRepresented": true,
-  "notes": "Manual May 19 refresh added Washington/King County monitoring, AP Nebraska quarantine orders and supplemental event snapshot, Reuters U.S. 41 monitored baseline, and a separate Douglas County Colorado fatal Sin Nombre hantavirus event.",
-  "latestMay19MonitoringAndColoradoUpdateRepresented": true
+  ]
 }
