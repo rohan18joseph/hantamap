@@ -88,7 +88,15 @@ if (usHondiusConfirmed.length) errors.push("MV Hondius U.S. locations contain co
 const canadaConfirmed = markerCounts(events, allReports)
   .filter((marker) => marker.eventId === "mv-hondius-andes-2026" && marker.country === "Canada")
   .filter((marker) => positive(marker.counts?.confirmed));
-if (canadaConfirmed.length) errors.push("Canada MV Hondius locations contain confirmed counts; expected presumptive/pending unless official confirmation is added");
+const hasOfficialCanadaConfirmation = allReports.some((report) =>
+  report.eventId === "mv-hondius-andes-2026" &&
+  report.sourceType === "national_health_agency" &&
+  report.sourceName === "Public Health Agency of Canada" &&
+  positive(report.extractedCounts?.confirmed)
+);
+if (canadaConfirmed.length && !hasOfficialCanadaConfirmation) {
+  errors.push("Canada MV Hondius locations contain confirmed counts without national public-health confirmation");
+}
 
 if (errors.length) {
   console.error("Data validation failed:");

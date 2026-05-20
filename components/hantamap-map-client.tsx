@@ -20,7 +20,7 @@ export function HantamapMapClient({
   reports,
   selectedLocation,
   focusReportId,
-  heightClass = "h-[650px]",
+  heightClass = "h-[62dvh] min-h-[430px] xl:h-[650px]",
   initialHistorical = true
 }: DashboardMapProps) {
   const [map, setMap] = useState<MapHandle>(null);
@@ -32,6 +32,7 @@ export function HantamapMapClient({
   const [supplemental, setSupplemental] = useState(true);
   const [candidates, setCandidates] = useState(true);
   const [clusterHealthy, setClusterHealthy] = useState(true);
+  const [legendOpen, setLegendOpen] = useState(false);
 
   const visibleReports = useMemo(
     () => reports.filter((report) => {
@@ -101,8 +102,21 @@ export function HantamapMapClient({
     </Marker>
   ));
 
+  const invalidateKey = [
+    visibleReports.length,
+    clusters,
+    paths,
+    historical,
+    advisories,
+    supplemental,
+    candidates,
+    Boolean(selectedReport),
+    selectedLocation?.id,
+    focusReportId
+  ].join(":");
+
   return (
-    <div className={`relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-soft dark:border-slate-800 dark:bg-slate-900 ${heightClass}`}>
+    <div className={`relative overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-soft dark:border-slate-800 dark:bg-slate-900 ${heightClass}`}>
       <MapContainer
         center={defaultCenter}
         zoom={3}
@@ -119,7 +133,7 @@ export function HantamapMapClient({
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           maxZoom={18}
         />
-        <MapController selectedLocation={selectedLocation} />
+        <MapController selectedLocation={selectedLocation} resizeKey={invalidateKey} />
         {paths ? <EventPaths reports={visibleReports} /> : null}
         {selectedLocation ? (
           <CircleMarker
@@ -155,7 +169,7 @@ export function HantamapMapClient({
           markers
         )}
       </MapContainer>
-      <div className="absolute left-3 right-3 top-3 z-[500] flex max-h-32 flex-wrap gap-2 overflow-y-auto rounded-2xl border border-slate-200 bg-white p-2 shadow-soft dark:border-slate-700 dark:bg-slate-950 sm:left-4 sm:right-auto sm:top-4 sm:max-h-none sm:max-w-[calc(100%-2rem)]">
+      <div className="absolute left-3 right-3 top-3 z-[500] flex max-h-28 gap-2 overflow-x-auto rounded-2xl border border-slate-200 bg-white p-2 shadow-soft dark:border-slate-700 dark:bg-slate-950 sm:left-4 sm:right-auto sm:top-4 sm:max-h-none sm:max-w-[calc(100%-2rem)] sm:flex-wrap sm:overflow-visible">
         <button className="btn-secondary" type="button" onClick={resetView}>
           <RotateCcw className="h-4 w-4" /> Reset world view
         </button>
@@ -187,18 +201,33 @@ export function HantamapMapClient({
           <Network className="h-4 w-4" /> Candidates
         </button>
       </div>
+      <button
+        type="button"
+        onClick={fitVisible}
+        className="btn-primary absolute bottom-[calc(env(safe-area-inset-bottom)+1rem)] right-3 z-[520] px-3 shadow-soft sm:hidden"
+      >
+        <LocateFixed className="h-4 w-4" /> Fit
+      </button>
       {!clusterHealthy ? (
         <div className="absolute right-4 top-4 z-[500] rounded-2xl bg-amber-50 p-3 text-xs font-bold text-amber-900 shadow-soft dark:bg-amber-950 dark:text-amber-100">
           Cluster layer unavailable; showing standard markers.
         </div>
       ) : null}
-      <div className="absolute bottom-4 left-4 z-[500] rounded-2xl border border-slate-200 bg-white p-3 text-xs font-bold text-slate-900 shadow-soft dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100">
-        <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400">Map legend</div>
-        <LegendItem color="bg-red-600" label="Confirmed cluster/case" />
-        <LegendItem color="bg-amber-600" label="Active advisory" />
-        <LegendItem color="bg-blue-600" label="Monitoring" />
-        <LegendItem color="bg-violet-600" label="Supplemental" />
-        <LegendItem color="bg-slate-900 dark:bg-slate-100" label="Death-associated badge" />
+      <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+1rem)] left-3 z-[500] max-w-[min(19rem,calc(100%-6rem))] rounded-2xl border border-slate-200 bg-white p-3 text-xs font-bold text-slate-900 shadow-soft dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 sm:bottom-4 sm:left-4 sm:max-w-none">
+        <button
+          type="button"
+          onClick={() => setLegendOpen((value) => !value)}
+          className="flex w-full items-center justify-between gap-3 text-left text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400 sm:pointer-events-none"
+        >
+          Map legend <span className="sm:hidden">{legendOpen ? "Hide" : "Show"}</span>
+        </button>
+        <div className={`${legendOpen ? "mt-2 block" : "hidden"} sm:mt-2 sm:block`}>
+          <LegendItem color="bg-red-600" label="Confirmed cluster/case" />
+          <LegendItem color="bg-amber-600" label="Active advisory" />
+          <LegendItem color="bg-blue-600" label="Monitoring" />
+          <LegendItem color="bg-violet-600" label="Supplemental" />
+          <LegendItem color="bg-slate-900 dark:bg-slate-100" label="Death-associated badge" />
+        </div>
       </div>
       <ReportDrawer report={selectedReport} onClose={() => setSelectedReport(undefined)} />
     </div>
@@ -224,14 +253,39 @@ class ClusterFallbackBoundary extends Component<
   }
 }
 
-function MapController({ selectedLocation }: Pick<DashboardMapProps, "selectedLocation">) {
+function MapController({ selectedLocation, resizeKey }: Pick<DashboardMapProps, "selectedLocation"> & { resizeKey: string }) {
   const map = useMap();
   useEffect(() => {
     if (selectedLocation) {
       map.flyTo([selectedLocation.latitude, selectedLocation.longitude], 6, { duration: 0.8 });
     }
   }, [map, selectedLocation]);
+
+  useLeafletInvalidateSize(map, resizeKey);
+
   return null;
+}
+
+function useLeafletInvalidateSize(map: L.Map, resizeKey: string) {
+  useEffect(() => {
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+    const invalidate = () => {
+      if (timeout) clearTimeout(timeout);
+      timeout = setTimeout(() => map.invalidateSize({ animate: true }), 120);
+    };
+
+    invalidate();
+    window.addEventListener("resize", invalidate);
+    window.addEventListener("orientationchange", invalidate);
+    window.visualViewport?.addEventListener("resize", invalidate);
+
+    return () => {
+      if (timeout) clearTimeout(timeout);
+      window.removeEventListener("resize", invalidate);
+      window.removeEventListener("orientationchange", invalidate);
+      window.visualViewport?.removeEventListener("resize", invalidate);
+    };
+  }, [map, resizeKey]);
 }
 
 function EventPaths({ reports }: { reports: HantamapReport[] }) {
@@ -259,7 +313,7 @@ function reportIcon(report: HantamapReport, active = false) {
   const count = primaryCount(report);
   const deaths = report.caseCounts.deaths;
   const monitored = (report.caseCounts.monitored || 0) + (report.caseCounts.quarantined || 0);
-  const size = active ? 46 : count && count >= 10 ? 40 : 34;
+  const size = active ? 48 : count && count >= 10 ? 44 : 40;
   return L.divIcon({
     className: "",
     iconSize: [size, size],

@@ -12,23 +12,23 @@ import type { HantamapReport } from "@/lib/types";
 export function ReportDrawer({ report, onClose }: { report?: HantamapReport; onClose: () => void }) {
   return (
     <aside
-      className={`fixed inset-y-0 right-0 z-[70] w-full max-w-xl transform border-l border-slate-200 bg-white shadow-2xl transition dark:border-slate-800 dark:bg-slate-950 ${
-        report ? "translate-x-0" : "translate-x-full"
+      className={`fixed inset-x-0 bottom-0 z-[700] h-[min(82dvh,760px)] w-full transform rounded-t-3xl border-t border-slate-200 bg-white pb-[env(safe-area-inset-bottom)] shadow-2xl transition dark:border-slate-800 dark:bg-slate-950 sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:max-w-xl sm:rounded-none sm:border-l sm:border-t-0 sm:pb-0 ${
+        report ? "translate-y-0 sm:translate-x-0 sm:translate-y-0" : "translate-y-full sm:translate-x-full sm:translate-y-0"
       }`}
       aria-hidden={!report}
     >
       {report ? (
         <div className="flex h-full flex-col">
-          <div className="flex items-center justify-between border-b border-slate-200 p-5 dark:border-slate-800">
+          <div className="flex items-start justify-between gap-4 border-b border-slate-200 p-4 dark:border-slate-800 sm:p-5">
             <div>
               <p className="kicker">Report Detail</p>
               <h2 className="mt-1 text-xl font-black">{report.title}</h2>
             </div>
-            <button type="button" onClick={onClose} className="btn-secondary px-3" aria-label="Close report drawer">
-              <X className="h-4 w-4" />
+            <button type="button" onClick={onClose} className="btn-secondary min-h-11 min-w-11 shrink-0 px-3" aria-label="Close report drawer">
+              <X className="h-5 w-5" />
             </button>
           </div>
-          <div className="flex-1 space-y-5 overflow-y-auto p-5">
+          <div className="flex-1 space-y-5 overflow-y-auto overscroll-contain p-4 sm:p-5">
             <ReportBadges report={report} />
             <p className="subtle">{report.summary}</p>
             {report.categories?.length ? (
@@ -45,7 +45,7 @@ export function ReportDrawer({ report, onClose }: { report?: HantamapReport; onC
                 <p className="mt-2 text-xs font-bold text-slate-500">Articles are evidence. Counts below are people counts from source snapshots.</p>
               </section>
             ) : null}
-            <dl className="grid grid-cols-2 gap-3 text-sm">
+            <dl className="grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
               {[
                 ["Location", report.locationName],
                 ["Country", report.country],

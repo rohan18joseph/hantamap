@@ -38,9 +38,10 @@
     "urls": [
       "https://www.rivm.nl/en/hantavirus/current-information",
       "https://www.rivm.nl/en/news/update-hantavirus",
-      "https://www.rivm.nl/en/hantavirus/andes-virus"
+      "https://www.rivm.nl/en/hantavirus/andes-virus",
+      "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius"
     ],
-    "policy": "Dutch national public-health source. Can support national monitoring and advisory records."
+    "policy": "Dutch national public-health source. Supports national monitoring, advisory, ship-arrival, health-check, and disinfection logistics records."
   },
   {
     "sourceName": "Nebraska Medicine / UNMC",
@@ -103,9 +104,10 @@
     "tier": "National health agency",
     "urls": [
       "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation.html",
-      "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html"
+      "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html",
+      "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html"
     ],
-    "policy": "Canadian national public-health source. Supports Canadian monitoring, quarantine, testing, and confirmation-status snapshots without overriding global outbreak counts."
+    "policy": "Canadian national public-health source. Supports Canadian monitoring, quarantine, testing, and confirmed-positive location snapshots without creating U.S. confirmed cases."
   },
   {
     "sourceName": "British Columbia Office of the Provincial Health Officer",
@@ -134,9 +136,10 @@
     "confidence": "medium",
     "tier": "Supplemental",
     "urls": [
-      "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/"
+      "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+      "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
     ],
-    "policy": "Supplemental wire evidence for U.S. monitoring baselines. CDC statements inside Reuters are noted but not promoted to official unless separately sourced."
+    "policy": "Supplemental wire evidence for U.S. monitoring baselines and WHO revision context. CDC/WHO statements inside Reuters are noted but not promoted to official unless separately sourced."
   },
   {
     "sourceName": "The Guardian",
@@ -164,9 +167,10 @@
     "confidence": "medium",
     "tier": "Supplemental",
     "urls": [
-      "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9"
+      "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9",
+      "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
     ],
-    "policy": "Supplemental wire evidence and count snapshot history. Does not overwrite official WHO/CDC/ECDC counts."
+    "policy": "Supplemental wire evidence and count snapshot history. Does not overwrite official WHO/CDC/ECDC/PHAC counts unless a public-health agency source is separately represented."
   },
   {
     "sourceName": "Douglas County Health Department / CDPHE",
@@ -187,5 +191,25 @@
       "https://people.com/hantavirus-death-confirmed-in-colorado-11977742"
     ],
     "policy": "Supplemental news evidence for the Colorado fatal case; official local-health statement remains primary."
+  },
+  {
+    "sourceName": "HuffPost Spain",
+    "sourceType": "supplemental_news",
+    "confidence": "medium",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html"
+    ],
+    "policy": "Supplemental reporting for Rotterdam ship-disinfection logistics; used as travel-linked evidence, not case confirmation."
+  },
+  {
+    "sourceName": "The Sun",
+    "sourceType": "supplemental_news",
+    "confidence": "low",
+    "tier": "Supplemental",
+    "urls": [
+      "https://www.the-sun.com/news/16387273/hantavirus-death-us-officials-insist-normal/"
+    ],
+    "policy": "Supplemental news evidence for the Colorado fatal case; official Douglas County/CDPHE statement remains primary."
   }
 ]

@@ -60,7 +60,8 @@
           "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
           "https://apnews.com/article/302d45d77aac4d55aa76c43d79f54ec9",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
-          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
         ],
         "sourceNames": [
           "Nebraska Medicine / UNMC",
@@ -112,9 +113,10 @@
         "countSourceUrls": [
           "https://apnews.com/article/302d45d77aac4d55aa76c43d79f54ec9",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
-          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+          "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
         ],
-        "countNotes": "AP reports 18 MV Hondius passengers at UNMC, with two under formal CDC quarantine orders. Reuters reports 18 monitored/quarantined in Nebraska and Atlanta; Axios reports one King County resident monitored at the Nebraska quarantine center."
+        "countNotes": "AP reports 18 MV Hondius passengers at UNMC, with two under formal CDC quarantine orders. Reuters reports 18 monitored/quarantined in Nebraska and Atlanta and a previously inconclusive U.S. passenger later testing negative. No confirmed U.S. Andes-virus cases or deaths are assigned to this location."
       },
       {
         "locationId": "emory-university-hospital-atlanta",
@@ -127,8 +129,58 @@
         "locationType": "treatment_location",
         "description": "Supplemental/local reports describe MV Hondius passengers monitored or treated in Atlanta.",
         "sourceUrls": [
-          "https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit"
-        ]
+          "https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
+        ],
+        "sourceNames": [
+          "Reuters"
+        ],
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": 0,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": 1,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 2,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 2
+        },
+        "locationCounts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": 0,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": 1,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 2,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 2
+        },
+        "countSourceUrls": [
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
+        ],
+        "countNotes": "Reuters and local reporting support U.S. monitoring/testing at Atlanta/Emory; this marker remains screening/monitoring only and is not a confirmed U.S. Andes-virus case."
       },
       {
         "locationId": "new-jersey-resident-monitoring",
@@ -278,17 +330,74 @@
       },
       {
         "locationId": "rotterdam-ship-cleaning-route-mv-hondius",
-        "name": "Rotterdam ship cleaning route",
+        "name": "Rotterdam / Europoort ship disinfection logistics",
         "city": "Rotterdam",
         "state": null,
         "country": "Netherlands",
         "latitude": 51.9244,
         "longitude": 4.4777,
         "locationType": "ship_cleaning_route",
-        "description": "AP reports the MV Hondius was sailing back toward Rotterdam for cleaning and disinfection; no case count is assigned to this marker.",
+        "description": "RIVM reported MV Hondius arrived in an enclosed part of the port of Rotterdam on May 18 for phased disembarkation, health checks, cleaning, and disinfection. Twenty-seven people remained on board, described as crew members and medical personnel. This is travel-linked logistics/monitoring, not a confirmed case or death location.",
         "sourceUrls": [
-          "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
-        ]
+          "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb",
+          "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+          "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html"
+        ],
+        "sourceNames": [
+          "RIVM",
+          "HuffPost Spain"
+        ],
+        "locationPrecision": "city",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": 27,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 27,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 27
+        },
+        "locationCounts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": 27,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 27,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 27
+        },
+        "countSourceUrls": [
+          "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+          "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html"
+        ],
+        "countNotes": "RIVM reported 27 people still on board and phased controlled disembarkation for health checks and cleaning/disinfection. HuffPost Spain reported remaining people would be tested/quarantined after disembarkation. Counts are logistics/monitoring metadata, not cases.",
+        "metadata": {
+          "remainingPeopleOnShip": 27,
+          "crew": 25,
+          "rivmMedicalPersonnel": 2
+        }
       },
       {
         "locationId": "mv-hondius-andes-2026__victoria-bc__testing",
@@ -299,67 +408,72 @@
         "latitude": 48.4284,
         "longitude": -123.3656,
         "locationType": "treatment_location",
-        "description": "Canada-linked MV Hondius passenger hospital assessment/testing location. Official Canadian framing is presumptive positive with national-lab confirmation pending; this is not a U.S. confirmed case and no deaths are assigned to this marker.",
+        "description": "Victoria hospital assessment/isolation location for the Canadian MV Hondius patient and partner. PHAC confirmed one positive hantavirus sample and AP reported the traveling partner was confirmed negative. These are location-specific Canada counts and no deaths are assigned to this marker.",
         "sourceUrls": [
           "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html",
           "https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/",
-          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
+          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia",
+          "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
         ],
         "sourceNames": [
           "Public Health Agency of Canada",
           "NBC News",
           "Reuters",
-          "The Guardian"
+          "The Guardian",
+          "AP News"
         ],
         "locationPrecision": "city",
         "counts": {
-          "confirmed": null,
-          "presumptivePositive": 1,
-          "pendingConfirmation": 1,
+          "confirmed": 1,
+          "presumptivePositive": 0,
+          "pendingConfirmation": 0,
           "inconclusive": null,
           "suspected": null,
           "probable": null,
-          "screened": 1,
+          "screened": 2,
           "symptomatic": 1,
           "asymptomatic": null,
-          "negative": null,
+          "negative": 1,
           "deaths": 0,
-          "hospitalized": 1,
+          "hospitalized": 2,
           "critical": null,
-          "quarantined": null,
-          "monitored": null,
+          "quarantined": 2,
+          "monitored": 2,
           "recovered": null,
           "clearedNegative": null,
-          "totalReported": 1
+          "totalReported": 2
         },
         "locationCounts": {
-          "confirmed": null,
-          "presumptivePositive": 1,
-          "pendingConfirmation": 1,
+          "confirmed": 1,
+          "presumptivePositive": 0,
+          "pendingConfirmation": 0,
           "inconclusive": null,
           "suspected": null,
           "probable": null,
-          "screened": 1,
+          "screened": 2,
           "symptomatic": 1,
           "asymptomatic": null,
-          "negative": null,
+          "negative": 1,
           "deaths": 0,
-          "hospitalized": 1,
+          "hospitalized": 2,
           "critical": null,
-          "quarantined": null,
-          "monitored": null,
+          "quarantined": 2,
+          "monitored": 2,
           "recovered": null,
           "clearedNegative": null,
-          "totalReported": 1
+          "totalReported": 2
         },
         "countSourceUrls": [
           "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html",
           "https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/",
-          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
+          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia",
+          "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
         ],
-        "countNotes": "Location-specific count: one presumptive-positive symptomatic passenger in hospital assessment/testing in Victoria. Confirmation was pending at Canada.ca/PHAC publication."
+        "countNotes": "PHAC confirmed one Canadian sample positive on May 16; AP reports the confirmed patient and traveling partner are a Yukon couple in their 70s in a Victoria hospital, with the partner confirmed negative. Monitoring/quarantine counts describe hospital isolation/assessment, not extra cases."
       },
       {
         "locationId": "mv-hondius-andes-2026__vancouver-island__monitoring",
@@ -370,15 +484,18 @@
         "latitude": 49.6506,
         "longitude": -125.4494,
         "locationType": "monitoring_location",
-        "description": "Canadian MV Hondius passengers were transferred to dedicated accommodations on Vancouver Island for isolation and daily public-health monitoring. Monitoring/quarantine does not mean confirmed infection.",
+        "description": "Four Canadian MV Hondius passengers returned to British Columbia for isolation and monitoring. One patient was later confirmed positive and their traveling partner confirmed negative; the Victoria marker carries the confirmed/negative patient-level counts to avoid double-counting.",
         "sourceUrls": [
           "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation.html",
           "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026HLTH0045-000526.htm",
-          "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html"
+          "https://www.canada.ca/fr/sante-publique/nouvelles/2026/05/communique-de-presse-sur-la-situation-relative-au-hantavirus-andes0.html",
+          "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
         ],
         "sourceNames": [
           "Public Health Agency of Canada",
-          "British Columbia Office of the Provincial Health Officer"
+          "British Columbia Office of the Provincial Health Officer",
+          "AP News"
         ],
         "locationPrecision": "region",
         "counts": {
@@ -390,8 +507,8 @@
           "probable": null,
           "screened": 4,
           "symptomatic": null,
-          "asymptomatic": 4,
-          "negative": null,
+          "asymptomatic": null,
+          "negative": 1,
           "deaths": 0,
           "hospitalized": null,
           "critical": null,
@@ -410,8 +527,8 @@
           "probable": null,
           "screened": 4,
           "symptomatic": null,
-          "asymptomatic": 4,
-          "negative": null,
+          "asymptomatic": null,
+          "negative": 1,
           "deaths": 0,
           "hospitalized": null,
           "critical": null,
@@ -423,9 +540,11 @@
         },
         "countSourceUrls": [
           "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation.html",
-          "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026HLTH0045-000526.htm"
+          "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026HLTH0045-000526.htm",
+          "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
         ],
-        "countNotes": "Location-specific monitoring/isolation count for the four Canadians returned to B.C.; this should not be read as four confirmed infections."
+        "countNotes": "B.C./PHAC/AP evidence supports four Canadian passengers isolated/monitored in British Columbia. The one confirmed patient is counted at Victoria only to avoid duplicate confirmed markers."
       },
       {
         "locationId": "mv-hondius-andes-2026__yukon__origin",
@@ -436,16 +555,20 @@
         "latitude": 64.2823,
         "longitude": -135,
         "locationType": "origin_location",
-        "description": "Supplemental reports identify the presumptive-positive Canadian passenger as being from Yukon. This origin marker carries no separate people count to avoid double-counting the Victoria testing location.",
+        "description": "Residence/origin context for the confirmed Canadian patient and partner reported by AP. This origin marker intentionally does not repeat the Victoria confirmed count.",
         "sourceUrls": [
           "https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/",
-          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
+          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
+          "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html"
         ],
         "sourceNames": [
           "NBC News",
           "Reuters",
-          "The Guardian"
+          "The Guardian",
+          "AP News",
+          "Public Health Agency of Canada"
         ],
         "locationPrecision": "territory",
         "counts": {
@@ -491,9 +614,10 @@
         "countSourceUrls": [
           "https://www.nbcnews.com/health/health-news/canadian-hondius-cruise-passenger-positive-hantavirus-rcna345478",
           "https://www.reuters.com/business/healthcare-pharmaceuticals/canadian-tests-positive-hantavirus-after-cruise-ship-outbreak-official-says-2026-05-16/",
-          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia"
+          "https://www.theguardian.com/world/2026/may/16/canada-first-hantavirus-case-british-columbia",
+          "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae"
         ],
-        "countNotes": "Origin context only; no separate confirmed/death count is assigned to Yukon."
+        "countNotes": "Yukon is recorded as origin/residence context only; the same confirmed patient is counted at the Victoria hospital marker, not again here."
       },
       {
         "locationId": "mv-hondius-andes-2026__united-states__cdc-monitoring-41",
@@ -504,29 +628,33 @@
         "latitude": 39.8283,
         "longitude": -98.5795,
         "locationType": "monitoring_location",
-        "description": "Supplemental reporting attributed to CDC described 41 people in the United States under monitoring for possible exposure, while reporting no known U.S. cases. This marker is monitoring/exposure response only.",
+        "description": "U.S. national exposure-monitoring baseline for MV Hondius and related flight contacts. Reuters reported CDC said 41 people were monitored and no U.S. Andes-virus cases from the cruise outbreak were confirmed; the previously inconclusive U.S. passenger was later confirmed negative.",
         "sourceUrls": [
-          "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/"
+          "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
         ],
         "sourceNames": [
-          "NBC News / local affiliate"
+          "NBC News / local affiliate",
+          "Reuters",
+          "Centers for Disease Control and Prevention"
         ],
         "locationPrecision": "country",
         "counts": {
           "confirmed": 0,
           "presumptivePositive": null,
           "pendingConfirmation": null,
-          "inconclusive": null,
+          "inconclusive": 0,
           "suspected": null,
           "probable": null,
           "screened": null,
           "symptomatic": null,
           "asymptomatic": null,
-          "negative": null,
+          "negative": 1,
           "deaths": 0,
           "hospitalized": null,
           "critical": null,
-          "quarantined": null,
+          "quarantined": 18,
           "monitored": 41,
           "recovered": null,
           "clearedNegative": null,
@@ -536,26 +664,28 @@
           "confirmed": 0,
           "presumptivePositive": null,
           "pendingConfirmation": null,
-          "inconclusive": null,
+          "inconclusive": 0,
           "suspected": null,
           "probable": null,
           "screened": null,
           "symptomatic": null,
           "asymptomatic": null,
-          "negative": null,
+          "negative": 1,
           "deaths": 0,
           "hospitalized": null,
           "critical": null,
-          "quarantined": null,
+          "quarantined": 18,
           "monitored": 41,
           "recovered": null,
           "clearedNegative": null,
           "totalReported": 41
         },
         "countSourceUrls": [
-          "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/"
+          "https://www.nbclosangeles.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/3890949/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/cdc-says-41-people-being-monitored-hantavirus-us-2026-05-14/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/"
         ],
-        "countNotes": "U.S.-scope monitoring count; not a confirmed U.S. Andes-virus case count."
+        "countNotes": "Reuters reported CDC said 41 people in the U.S. were monitored, including 18 in Nebraska and Atlanta; Reuters later reported the previously inconclusive U.S. passenger tested negative. This is monitoring/exposure response, not confirmed infection."
       },
       {
         "locationId": "mv-hondius-andes-2026__washington-state__monitoring",
@@ -1285,6 +1415,118 @@
           "totalReported": 6
         },
         "notes": "Axios Seattle reported Washington Department of Health information that six Washington residents, including four from King County, were being monitored after MV Hondius-related exposure and remained asymptomatic as of May 18."
+      },
+      {
+        "sourceName": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-15",
+        "counts": {
+          "confirmed": 10,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": 1,
+          "deaths": 3,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 18,
+          "monitored": 41,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 10
+        },
+        "notes": "Reuters reported a WHO official said the U.S. confirmed a previously inconclusive passenger tested negative, lowering the global case count to 10 from 11. Reuters also repeated U.S. monitoring context: no confirmed U.S. cases, 41 people monitored, including 18 in Nebraska and Atlanta. This remains a supplemental snapshot and does not overwrite official WHO/CDC/ECDC history."
+      },
+      {
+        "sourceName": "Public Health Agency of Canada",
+        "sourceUrl": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+        "sourceType": "national_health_agency",
+        "confidence": "high",
+        "reportedAt": "2026-05-17",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": 1,
+          "deaths": 0,
+          "hospitalized": 2,
+          "critical": null,
+          "quarantined": 4,
+          "monitored": 4,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 4
+        },
+        "notes": "PHAC confirmed one Canadian sample positive for hantavirus on May 16 and AP reported the confirmed case partner was negative. This supports Canadian location-level confirmation and does not add U.S. confirmed cases or location-level deaths."
+      },
+      {
+        "sourceName": "AP News",
+        "sourceUrl": "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-17",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": 1,
+          "deaths": 3,
+          "hospitalized": 2,
+          "critical": null,
+          "quarantined": 4,
+          "monitored": 4,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 4
+        },
+        "notes": "AP reported PHAC confirmed one of four Canadian passengers tested positive, the traveling partner tested negative, both were in a Victoria hospital, all four Canadian cruise passengers were in isolation, and the Canadian patient was the 10th ship-linked positive. Event-wide deaths remain separate from Canada location markers."
+      },
+      {
+        "sourceName": "RIVM",
+        "sourceUrl": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+        "sourceType": "national_health_agency",
+        "confidence": "high",
+        "reportedAt": "2026-05-18",
+        "counts": {
+          "confirmed": 0,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": 27,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": 27,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 27
+        },
+        "notes": "RIVM reported MV Hondius arrived in Rotterdam with 27 people still on board for controlled disembarkation, health checks, cleaning, and disinfection. These are logistics/monitoring details, not confirmed cases."
       }
     ],
     "sourceTiersAvailable": [
@@ -1324,10 +1566,15 @@
       "nbc-2026-us-41-monitored-no-known-cases",
       "axios-seattle-2026-washington-mv-hondius-monitoring",
       "ap-2026-mv-hondius-nebraska-quarantine-orders",
-      "reuters-2026-us-41-monitored-no-confirmed-cases"
+      "reuters-2026-us-41-monitored-no-confirmed-cases",
+      "phac-2026-canada-confirmed-positive-mv-hondius",
+      "ap-2026-canada-confirmed-positive-mv-hondius",
+      "reuters-2026-who-revision-us-negative-mv-hondius",
+      "rivm-2026-rotterdam-hondius-cleaning",
+      "huffpost-2026-rotterdam-hondius-disinfection"
     ],
-    "lastUpdated": "2026-05-19",
-    "summary": "Canonical event cluster for the 2026 MV Hondius Andes virus outbreak and related public-health monitoring, quarantine, treatment, testing, and local-health follow-up. Counts are not summed across articles. Location markers show location-specific counts; event-wide death counts stay in event-wide sections only. Latest U.S. monitoring updates remain monitoring/exposure response, not confirmed U.S. Andes-virus cases."
+    "lastUpdated": "2026-05-20",
+    "summary": "MV Hondius Andes virus event with updated Canada confirmed case, U.S. monitoring/negative-test context, and Rotterdam disinfection logistics. Reports are evidence; event-wide counts vary by source/update time and do not leak to child location markers."
   },
   {
     "eventId": "nevada-quad-county-hantavirus-2026",
@@ -1765,6 +2012,34 @@
           "totalReported": 1
         },
         "notes": "People reported the confirmed Douglas County fatal case and cited Douglas County/CDPHE. Supplemental evidence only; official local-health statement remains the primary source."
+      },
+      {
+        "sourceName": "The Sun",
+        "sourceUrl": "https://www.the-sun.com/news/16387273/hantavirus-death-us-officials-insist-normal/",
+        "sourceType": "supplemental_news",
+        "confidence": "low",
+        "reportedAt": "2026-05-19",
+        "counts": {
+          "confirmed": 1,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 1,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 1
+        },
+        "notes": "Supplemental news evidence about the Douglas County fatal hantavirus case. Official Douglas County/CDPHE statement remains the primary source for counts and classification."
       }
     ],
     "sourceTiersAvailable": [
@@ -1774,9 +2049,10 @@
     "corroborationStatus": "corroborated",
     "reportIds": [
       "douglas-county-cdphe-2026-fatal-hantavirus",
-      "people-2026-colorado-hantavirus-death"
+      "people-2026-colorado-hantavirus-death",
+      "the-sun-2026-colorado-hantavirus-death"
     ],
     "lastUpdated": "2026-05-19",
-    "summary": "Separate 2026 Douglas County, Colorado confirmed fatal Sin Nombre hantavirus case. It is rodentborne, local to Colorado, and unrelated to the MV Hondius Andes-virus outbreak."
+    "summary": "Separate Douglas County, Colorado fatal Sin Nombre hantavirus case. This rodentborne event is unrelated to the MV Hondius Andes-virus outbreak."
   }
 ]

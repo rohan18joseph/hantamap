@@ -89,6 +89,22 @@ const sources: Source[] = [
     mode: "html"
   },
   {
+    name: "RIVM arrival and cleaning of cruise ship Hondius",
+    url: "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+    sourceName: "RIVM",
+    sourceType: "national_health_agency",
+    confidence: "high",
+    mode: "html"
+  },
+  {
+    name: "PHAC confirmed Canadian MV Hondius case",
+    url: "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+    sourceName: "Public Health Agency of Canada",
+    sourceType: "national_health_agency",
+    confidence: "high",
+    mode: "html"
+  },
+  {
     name: "ASPR MV Hondius repatriation",
     url: "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
     sourceName: "Administration for Strategic Preparedness and Response",
@@ -132,6 +148,30 @@ const sources: Source[] = [
     name: "Guardian evacuated passengers update",
     url: "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus",
     sourceName: "The Guardian",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "AP Canada confirmed positive update",
+    url: "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
+    sourceName: "AP News",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "Reuters WHO revision and U.S. negative test update",
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
+    sourceName: "Reuters",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "HuffPost Spain Rotterdam disinfection logistics",
+    url: "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
+    sourceName: "HuffPost Spain",
     sourceType: "supplemental_news",
     confidence: "medium",
     mode: "html"

@@ -72,7 +72,7 @@ export function InteractiveMaps({ reports, candidates = [] }: { reports: Hantama
       </section>
 
       <section className="grid gap-6 xl:grid-cols-[1fr_430px]">
-        <DashboardMap reports={visibleReports} focusReportId={focusReportId} heightClass="h-[720px]" initialHistorical={tab === "all"} />
+        <DashboardMap reports={visibleReports} focusReportId={focusReportId} heightClass="h-[62dvh] min-h-[430px] md:h-[64dvh] xl:h-[720px]" initialHistorical={tab === "all"} />
         <aside className="panel overflow-hidden">
           <div className="border-b border-slate-200 p-5 dark:border-slate-800">
             <p className="kicker">Interactive Case Map</p>
