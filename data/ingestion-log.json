@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-05-21T07:56:18Z",
-  "refreshedAt": "2026-05-21T07:56:18Z",
+  "lastRefresh": "2026-05-21T12:27:55.024Z",
+  "refreshedAt": "2026-05-21T12:27:55.024Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -52,6 +52,22 @@
       "status": 200
     },
     {
+      "name": "RIVM arrival and cleaning of cruise ship Hondius",
+      "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "PHAC confirmed Canadian MV Hondius case",
+      "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "This operation was aborted"
+    },
+    {
       "name": "ASPR MV Hondius repatriation",
       "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
       "ok": true,
@@ -100,22 +116,6 @@
       "status": 200
     },
     {
-      "name": "GDELT DOC API U.S. 2026 discovery",
-      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "HTTP 429"
-    },
-    {
-      "name": "PHAC confirmed Canadian MV Hondius case",
-      "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
-      "ok": true,
-      "matchedItems": 1,
-      "discoveredUrls": 0,
-      "status": 200
-    },
-    {
       "name": "AP Canada confirmed positive update",
       "url": "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
       "ok": true,
@@ -126,18 +126,11 @@
     {
       "name": "Reuters WHO revision and U.S. negative test update",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
-    },
-    {
-      "name": "RIVM arrival and cleaning of cruise ship Hondius",
-      "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": true,
-      "matchedItems": 1,
-      "discoveredUrls": 0,
-      "status": 200
+      "status": 401,
+      "error": "HTTP 401"
     },
     {
       "name": "HuffPost Spain Rotterdam disinfection logistics",
@@ -148,12 +141,12 @@
       "status": 200
     },
     {
-      "name": "The Sun Colorado fatal hantavirus update",
-      "url": "https://www.the-sun.com/news/16387273/hantavirus-death-us-officials-insist-normal/",
-      "ok": true,
-      "matchedItems": 1,
+      "name": "GDELT DOC API U.S. 2026 discovery",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "fetch failed"
     }
   ],
   "newCandidateReports": [],
@@ -167,7 +160,11 @@
     "abc11-raleigh-2026-hantavirus-screening-monitoring",
     "ap-2026-mv-hondius-us-passenger-tracing",
     "nypost-2026-new-york-hantavirus-cruise",
-    "kolo-2026-quad-county-hantavirus"
+    "kolo-2026-quad-county-hantavirus",
+    "ap-2026-canada-confirmed-positive-mv-hondius",
+    "reuters-2026-who-revision-us-negative-mv-hondius",
+    "huffpost-2026-rotterdam-hondius-disinfection",
+    "the-sun-2026-colorado-hantavirus-death"
   ],
   "debug": {
     "reportsDiscoveredPerSource": {
@@ -177,30 +174,29 @@
       "ECDC Andes outbreak daily page": 1,
       "RIVM current information about hantavirus": 1,
       "RIVM update hantavirus": 1,
+      "RIVM arrival and cleaning of cruise ship Hondius": 1,
+      "PHAC confirmed Canadian MV Hondius case": 0,
       "ASPR MV Hondius repatriation": 1,
       "Nebraska Medicine monitoring for hantavirus": 1,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
       "Guardian evacuated passengers update": 1,
-      "GDELT DOC API U.S. 2026 discovery": 0,
-      "PHAC confirmed Canadian MV Hondius case": 1,
       "AP Canada confirmed positive update": 1,
-      "Reuters WHO revision and U.S. negative test update": 1,
-      "RIVM arrival and cleaning of cruise ship Hondius": 1,
+      "Reuters WHO revision and U.S. negative test update": 0,
       "HuffPost Spain Rotterdam disinfection logistics": 1,
-      "The Sun Colorado fatal hantavirus update": 1
+      "GDELT DOC API U.S. 2026 discovery": 0
     },
     "eventsAfterDeduplication": 4,
     "usEvents": 4,
-    "usReports": 15,
+    "usReports": 17,
     "filteredOutOldReports": 0,
     "sourceTypeBreakdown": {
       "official": 5,
-      "national_health_agency": 7,
+      "national_health_agency": 5,
       "health_system": 1,
       "state_health_department": 2,
-      "supplemental_news": 15,
+      "supplemental_news": 12,
       "local_health_department": 1
     },
     "allStateDiscoveryStatus": [
@@ -249,7 +245,7 @@
         "abbreviation": "CO",
         "searched": true,
         "queryCount": 13,
-        "reportCount": 0,
+        "reportCount": 1,
         "candidateCount": 0
       },
       {
@@ -289,7 +285,7 @@
         "abbreviation": "GA",
         "searched": true,
         "queryCount": 13,
-        "reportCount": 4,
+        "reportCount": 5,
         "candidateCount": 0
       },
       {
@@ -425,7 +421,7 @@
         "abbreviation": "NE",
         "searched": true,
         "queryCount": 13,
-        "reportCount": 5,
+        "reportCount": 6,
         "candidateCount": 0
       },
       {
@@ -654,29 +650,39 @@
       }
     ],
     "sourceModeCounts": {
-      "officialOnly": 8,
-      "officialLocal": 12,
-      "supplemental": 8,
+      "officialOnly": 10,
+      "officialLocal": 14,
+      "supplemental": 12,
       "needsReview": 2,
-      "everything": 20
+      "everything": 26
     },
-    "sourceRegistryCount": 14,
-    "canadaReports": 2,
-    "canadaConfirmedLocationCount": 1,
-    "rotterdamLogisticsRepresented": true
+    "sourceRegistryCount": 20
   },
   "errors": [
+    {
+      "name": "PHAC confirmed Canadian MV Hondius case",
+      "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Reuters WHO revision and U.S. negative test update",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 401,
+      "error": "HTTP 401"
+    },
     {
       "name": "GDELT DOC API U.S. 2026 discovery",
       "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "HTTP 429"
+      "error": "fetch failed"
     }
-  ],
-  "latestMay16CanadaUpdateRepresented": true,
-  "notes": "Manual May 21 update expanded the global location index, added UTC refresh metadata, and retained the current source-backed MV Hondius, Canada, Rotterdam, U.S. monitoring, and Colorado event records.",
-  "latestMay19MonitoringAndColoradoUpdateRepresented": true,
-  "latestMay20CanadaRotterdamRevisionRepresented": true
+  ]
 }
