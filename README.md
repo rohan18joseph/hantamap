@@ -41,7 +41,7 @@ flowchart LR
 
 ## What This Project Is Not
 
-Hantamap is not affiliated with WHO, CDC, ECDC, Public Health Agency of Canada, or any health agency. It is not a medical tool, a diagnostic tool, a public-health authority, or a guaranteed real-time surveillance system. It should not be used to make medical, travel, occupational, or public-health decisions.
+Hantamap is not affiliated with WHO, CDC, ECDC, Public Health Agency of Canada, or any health agency. It is not a medical tool, a diagnostic tool, a public-health authority, or a guaranteed live surveillance system. It should not be used to make medical, travel, occupational, or public-health decisions.
 
 ## Why It Exists
 

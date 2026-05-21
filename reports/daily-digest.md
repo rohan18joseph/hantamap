@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-05-20T12:05:10.014Z
+Last refresh timestamp: 2026-05-21 07:56 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -11,6 +11,9 @@ Last refresh timestamp: 2026-05-20T12:05:10.014Z
 - Quad-County Nevada confirmed hantavirus case (confirmed) - https://www.carsonnow.org/04/28/2026/quad-county-health-officials-confirm-single-case-hantavirus
 - Douglas County Colorado fatal Sin Nombre hantavirus case (confirmed) - https://www.douglasco.gov/statement-on-confirmed-hantavirus-death-in-douglas-county/
 - CDC NNDSS 2026 HPS surveillance signal (monitoring) - https://stacks.cdc.gov/view/cdc/256226
+
+## Data Index Updates
+- Expanded static global city and capital coverage for Risk Lens autocomplete, including Amsterdam and other major cities.
 
 ## Supplemental Updates
 - PHAC confirmed Canada MV Hondius case: one Canadian sample confirmed positive, partner confirmed negative, Victoria hospital/isolation marker updated without adding U.S. confirmed cases (high) - https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html

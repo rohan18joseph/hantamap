@@ -222,7 +222,7 @@ export function RiskLens({ reports, lastUpdated }: RiskLensProps) {
         </div>
         {mapboxMessage ? <p className="mt-3 text-sm font-bold text-slate-500 dark:text-slate-400">{mapboxMessage}</p> : null}
         <p className="mt-3 text-xs text-slate-500">
-          Optional Mapbox geocoding is only called when no local result is good enough or when you click Search globally. Results are cached in localStorage to avoid surprise costs. Showing 2026 reports only.
+          The local index includes U.S. Census locations plus a static global city and capital list. Optional Mapbox geocoding is only called when no local result is good enough or when you click Search globally. Results are cached in localStorage to avoid surprise costs. Showing 2026 reports only.
         </p>
       </section>
 
@@ -278,7 +278,7 @@ export function RiskLens({ reports, lastUpdated }: RiskLensProps) {
               </article>
             </div>
 
-            <DashboardMap reports={reports} selectedLocation={selected} heightClass="h-[760px]" />
+            <DashboardMap reports={reports} selectedLocation={selected} heightClass="h-[62dvh] min-h-[430px] xl:h-[760px]" />
           </section>
 
           <section className="panel p-6">
@@ -335,13 +335,38 @@ function scoreLocation(location: LocationRecord, rawQuery: string) {
   const query = normalize(rawQuery);
   const compact = query.replace(/\s/g, "");
   const label = normalize(location.label);
-  const aliases = [location.label, location.city, location.county, location.state, location.stateCode, location.postalCode, ...location.aliases].filter(Boolean).map((value) => normalize(String(value)));
+  const aliases = [
+    location.label,
+    location.city,
+    location.county,
+    location.state,
+    location.stateCode,
+    location.postalCode,
+    location.region,
+    location.country,
+    location.countryCode,
+    ...location.aliases
+  ].filter(Boolean).map((value) => normalize(String(value)));
+  const city = normalize(location.city || location.name || "");
+  const country = normalize(location.country || "");
+  const countryCode = normalize(location.countryCode || "");
+  const region = normalize(location.region || location.state || "");
+  const exactLocationTypes = new Set(["city", "global_city", "capital", "outbreak_location"]);
   const includesCounty = query.includes("county");
   if (location.type === "zcta" && location.postalCode === compact) return 1200;
-  if (location.type === "city" && (label === query || aliases.includes(query))) return 1100;
+  if (exactLocationTypes.has(location.type) && (label === query || aliases.includes(query))) return 1120 + locationPriority(location);
+  if (city && (query === `${city} ${countryCode}` || query === `${city} ${country}` || query === `${city} ${region}` || query === `${city} ${region} ${country}`)) return 1110 + locationPriority(location);
   if (location.type === "state" && (normalize(location.state || "") === query || normalize(location.stateCode || "") === query)) return 1050;
-  if (aliases.some((alias) => alias.startsWith(query)) || label.startsWith(query)) return 760 - typePenalty(location, includesCounty);
-  if (aliases.some((alias) => alias.includes(query)) || label.includes(query)) return 420 - typePenalty(location, includesCounty);
+  if (aliases.some((alias) => alias.startsWith(query)) || label.startsWith(query)) return 760 + locationPriority(location) - typePenalty(location, includesCounty);
+  if (query.split(" ").every((part) => aliases.some((alias) => alias.includes(part)))) return 640 + locationPriority(location) - typePenalty(location, includesCounty);
+  if (aliases.some((alias) => alias.includes(query)) || label.includes(query)) return 420 + locationPriority(location) - typePenalty(location, includesCounty);
+  return 0;
+}
+
+function locationPriority(location: LocationRecord) {
+  if (location.type === "outbreak_location") return 45;
+  if (location.type === "capital") return 35;
+  if ((location.population || 0) >= 5_000_000) return 20;
   return 0;
 }
 

@@ -36,5 +36,5 @@ jobs:
           git config user.name "hantamap-bot"
           git config user.email "YOUR_GITHUB_EMAIL"
           git add data reports
-          git commit -m "chore(data): refresh hantavirus intelligence feed"
+          git commit -m "data: refresh hantavirus source records"
           git push

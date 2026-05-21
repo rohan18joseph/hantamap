@@ -5,8 +5,12 @@ import { TopNav } from "@/components/nav";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Hantamap",
-  description: "A static public-health intelligence dashboard for hantavirus reports and advisories."
+  title: "Hantamap project",
+  description: "Experimental map-based view of 2026 hantavirus-related reports.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.svg"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

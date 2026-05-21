@@ -22,8 +22,21 @@ export function formatDate(value: string) {
 }
 
 export function formatDateTime(value: string) {
-  return new Intl.DateTimeFormat("en", {
-    dateStyle: "medium",
-    timeStyle: "short"
-  }).format(new Date(value));
+  return formatRefreshTimeUtc(value);
+}
+
+export function formatRefreshTimeUtc(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  const parts = new Intl.DateTimeFormat("en", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "UTC"
+  }).formatToParts(date);
+  const get = (type: string) => parts.find((part) => part.type === type)?.value || "";
+  return `${get("month")} ${get("day")}, ${get("year")}, ${get("hour")}:${get("minute")} UTC`;
 }

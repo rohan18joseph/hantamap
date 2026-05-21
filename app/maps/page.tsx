@@ -17,7 +17,7 @@ export default async function MapsPage() {
           <DataFreshnessBadge lastUpdated={lastUpdated} />
         </div>
       </section>
-      <InteractiveMaps reports={reports} />
+      <InteractiveMaps reports={reports} lastUpdated={lastUpdated} />
     </main>
   );
 }

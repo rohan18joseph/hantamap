@@ -4,6 +4,7 @@ import ingestionLog from "@/data/ingestion-log.json";
 import reportsJson from "@/data/reports.json";
 import jurisdictionsJson from "@/data/us-jurisdictions.json";
 import sourceRegistryJson from "@/data/source-registry.json";
+import { formatRefreshTimeUtc } from "@/lib/geo";
 import { explainReportMapInclusion, getRenderableEvents } from "@/lib/renderable-events";
 import type { CandidateReport, EvidenceReport, HantamapEvent, ReportFile } from "@/lib/types";
 
@@ -63,7 +64,7 @@ export default function DebugDataPage() {
         <DebugCard label="Presumptive positive" value={presumptivePositive} />
         <DebugCard label="Pending confirmation" value={pendingConfirmation} />
         <DebugCard label="Filtered old reports" value={oldReports} />
-        <DebugCard label="Last refresh" value={(ingestionLog as any).lastRefresh || (reportsJson as ReportFile).lastUpdated} />
+        <DebugCard label="Last refresh" value={formatRefreshTimeUtc((ingestionLog as any).refreshedAt || (ingestionLog as any).lastRefresh || (reportsJson as ReportFile).lastUpdated)} />
         <DebugCard label="May 12 data represented" value={String(may12DataRepresented)} />
         <DebugCard label="All-state discovery jurisdictions" value={(jurisdictionsJson as any[]).length} />
         <DebugCard label="Source registry entries" value={(sourceRegistryJson as any[]).length} />

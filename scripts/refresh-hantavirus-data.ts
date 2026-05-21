@@ -243,6 +243,8 @@ async function main() {
   const filteredOutOldReports = reportsFile.reports.length - reports2026.length;
   const log = {
     lastRefresh: now,
+    refreshedAt: now,
+    timezone: "UTC",
     sourceResults,
     newCandidateReports: discoveredCandidates.map((report) => report.reportId),
     publishedReports: [],
@@ -328,7 +330,7 @@ async function writeDigest(lastUpdated: string, events: HantamapEvent[], reports
   const lines = [
     "# Hantamap Daily Digest",
     "",
-    `Last refresh timestamp: ${log.lastRefresh || lastUpdated}`,
+    `Last refresh timestamp: ${formatUtcTimestamp(log.refreshedAt || log.lastRefresh || lastUpdated)}`,
     "",
     "## New Candidate Reports",
     ...(candidates.length ? candidates.slice(0, 12).map((report) => `- ${report.title} (${report.sourceName}) - ${report.sourceUrl}`) : ["- None"]),
@@ -351,6 +353,13 @@ async function writeDigest(lastUpdated: string, events: HantamapEvent[], reports
     ""
   ];
   await writeFile(DIGEST_PATH, lines.join("\n"), "utf8");
+}
+
+function formatUtcTimestamp(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  const pad = (input: number) => String(input).padStart(2, "0");
+  return `${date.getUTCFullYear()}-${pad(date.getUTCMonth() + 1)}-${pad(date.getUTCDate())} ${pad(date.getUTCHours())}:${pad(date.getUTCMinutes())} UTC`;
 }
 
 async function fetchWithTimeout(url: string, accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8") {

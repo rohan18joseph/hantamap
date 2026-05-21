@@ -7,6 +7,7 @@ import { EventClusterCard } from "@/components/event-cluster-card";
 import { MapTabs } from "@/components/map-tabs";
 import { SourceFilter } from "@/components/source-filter";
 import { StatCard } from "@/components/stat-card";
+import { formatRefreshTimeUtc } from "@/lib/geo";
 import { hasCount, reportMatchesSourceMode, type SourceFilterMode } from "@/lib/intelligence";
 import type { EventCategory } from "@/lib/types";
 import type { HantamapReport } from "@/lib/types";
@@ -25,7 +26,7 @@ const tabs: Array<{ id: MapTab; label: string; description: string }> = [
   { id: "needs_review", label: "Needs review", description: "Candidate or discovery clusters that need manual review." }
 ];
 
-export function InteractiveMaps({ reports, candidates = [] }: { reports: HantamapReport[]; candidates?: HantamapReport[] }) {
+export function InteractiveMaps({ reports, candidates = [], lastUpdated }: { reports: HantamapReport[]; candidates?: HantamapReport[]; lastUpdated: string }) {
   const [tab, setTab] = useState<MapTab>("all");
   const [sourceMode, setSourceMode] = useState<SourceFilterMode>("official_local");
   const [focusReportId, setFocusReportId] = useState<string>();
@@ -57,7 +58,7 @@ export function InteractiveMaps({ reports, candidates = [] }: { reports: Hantama
             <p className="subtle mt-2 text-sm">Default is official plus local health. Reports are evidence, not case counts.</p>
           </div>
           <span className="self-start rounded-full border border-slate-200 px-3 py-1 text-xs font-black uppercase tracking-wider text-slate-500 dark:border-slate-800">
-            2026 only · Last refreshed May 12, 2026
+            2026 only · Last refreshed {formatRefreshTimeUtc(lastUpdated)}
           </span>
         </div>
         <SourceFilter value={sourceMode} onChange={setSourceMode} className="mt-4" />

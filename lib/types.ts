@@ -53,6 +53,7 @@ export type RelatedLocation = {
   type: LocationType;
   name: string;
   country: string;
+  countryCode?: string;
   latitude: number;
   longitude: number;
   date: string;
@@ -242,6 +243,7 @@ export type LocationRecord = {
   name?: string;
   label: string;
   country: string;
+  countryCode?: string;
   city?: string;
   county?: string;
   region?: string;
@@ -250,7 +252,7 @@ export type LocationRecord = {
   postalCode?: string;
   latitude: number;
   longitude: number;
-  type: "city" | "county" | "state" | "zcta" | "global_city" | "country" | "region";
+  type: "city" | "county" | "state" | "zcta" | "global_city" | "capital" | "outbreak_location" | "country" | "region";
   population: number | null;
   aliases: string[];
 };
