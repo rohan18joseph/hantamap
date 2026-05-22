@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-05-21 12:27 UTC
+Last refresh timestamp: 2026-05-22 12:02 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
