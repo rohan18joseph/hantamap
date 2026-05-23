@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-05-22 12:02 UTC
+Last refresh timestamp: 2026-05-23 10:45 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -51,4 +51,4 @@ Last refresh timestamp: 2026-05-22 12:02 UTC
 - ok: AP Canada confirmed positive update (https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae)
 - failed: Reuters WHO revision and U.S. negative test update (https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/) - HTTP 401
 - ok: HuffPost Spain Rotterdam disinfection logistics (https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html)
-- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - fetch failed
+- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - HTTP 429
