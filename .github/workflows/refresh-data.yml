@@ -7,6 +7,10 @@ on:
 
 permissions:
   contents: write
+  actions: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   refresh-data:
@@ -14,11 +18,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "npm"
 
       - name: Install dependencies
@@ -27,14 +34,22 @@ jobs:
       - name: Refresh static data
         run: npm run refresh:data
 
+      - name: Validate refreshed data
+        run: npm run validate:data
+
+      - name: Build app
+        run: npm run build
+
       - name: Commit data changes
         run: |
-          if git diff --quiet -- data reports; then
+          # Repository settings must allow this workflow to write:
+          # Settings -> Actions -> General -> Workflow permissions -> Read and write permissions.
+          git config user.name "hantamap-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
             echo "No data or report changes."
             exit 0
           fi
-          git config user.name "hantamap-bot"
-          git config user.email "YOUR_GITHUB_EMAIL"
-          git add data reports
           git commit -m "data: refresh hantavirus source records"
-          git push
+          git push origin HEAD:${GITHUB_REF_NAME}
