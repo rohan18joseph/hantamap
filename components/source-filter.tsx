@@ -14,13 +14,13 @@ export function SourceFilter({
 }) {
   return (
     <div className={className}>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible sm:pb-0">
         {sourceFilterOptions.map((option) => (
           <button
             key={option.id}
             type="button"
             onClick={() => onChange(option.id)}
-            className={`rounded-xl border px-3 py-2 text-sm font-black transition ${
+            className={`min-h-10 shrink-0 rounded-xl border px-3 py-2 text-sm font-black transition ${
               value === option.id
                 ? "border-slate-950 bg-slate-950 text-white dark:border-white dark:bg-white dark:text-slate-950"
                 : "border-slate-200 bg-white text-slate-600 hover:border-slate-300 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-300 dark:hover:border-slate-700"

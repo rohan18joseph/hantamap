@@ -84,9 +84,13 @@ export function ReportDrawer({ report, onClose }: { report?: HantamapReport; onC
             {report.eventWideCountSources?.length ? (
               <section>
                 <h3 className="font-black">Event-wide count snapshots</h3>
-                <p className="mt-1 text-xs font-bold text-slate-500">These describe the overall MV Hondius event and are not copied to each location marker.</p>
+                <p className="mt-1 text-xs font-bold text-slate-500">These describe the overall MV Hondius event and are not copied to each location marker. Counts vary by source and update time.</p>
                 <div className="mt-3 space-y-2">
-                  {report.eventWideCountSources.slice(0, 6).map((source) => (
+                  {report.eventWideCountSources
+                    .slice()
+                    .sort((a, b) => b.reportedAt.localeCompare(a.reportedAt))
+                    .slice(0, 8)
+                    .map((source) => (
                     <div key={`${source.sourceUrl}-${source.reportedAt}`} className="rounded-2xl border border-slate-200 p-3 dark:border-slate-800">
                       <div className="flex flex-wrap items-center justify-between gap-2">
                         <a href={source.sourceUrl} target="_blank" rel="noreferrer" className="font-black hover:text-teal-700 dark:hover:text-teal-300">{source.sourceName}</a>

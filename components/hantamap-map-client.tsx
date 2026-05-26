@@ -21,7 +21,8 @@ export function HantamapMapClient({
   selectedLocation,
   focusReportId,
   heightClass = "h-[62dvh] min-h-[430px] xl:h-[650px]",
-  initialHistorical = true
+  initialHistorical = true,
+  resizeKey
 }: DashboardMapProps) {
   const [map, setMap] = useState<MapHandle>(null);
   const [selectedReport, setSelectedReport] = useState<HantamapReport | undefined>();
@@ -112,7 +113,8 @@ export function HantamapMapClient({
     candidates,
     Boolean(selectedReport),
     selectedLocation?.id,
-    focusReportId
+    focusReportId,
+    resizeKey
   ].join(":");
 
   return (
@@ -225,7 +227,7 @@ export function HantamapMapClient({
           <LegendItem color="bg-red-600" label="Confirmed cluster/case" />
           <LegendItem color="bg-amber-600" label="Active advisory" />
           <LegendItem color="bg-blue-600" label="Monitoring" />
-          <LegendItem color="bg-violet-600" label="Supplemental" />
+          <LegendItem color="bg-slate-600" label="Supplemental" />
           <LegendItem color="bg-slate-900 dark:bg-slate-100" label="Death-associated badge" />
         </div>
       </div>

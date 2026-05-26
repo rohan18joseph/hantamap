@@ -25,11 +25,11 @@ export function statusClasses(status: ReportStatus) {
 export function sourceBadge(report: HantamapReport) {
   if (report.sourceType === "official") return "Official";
   if (report.sourceType === "national_health_agency") return "National health agency";
-  if (report.sourceType === "state_health_department") return "State health";
-  if (report.sourceType === "local_health_department") return "Local health";
+  if (report.sourceType === "state_health_department") return "State health department";
+  if (report.sourceType === "local_health_department") return "Local health department";
   if (report.sourceType === "health_system") return "Health system";
   if (report.sourceType === "moderated") return "Moderated";
-  if (report.sourceType === "discovery") return "Discovery";
+  if (report.sourceType === "discovery") return "Needs review";
   return "Supplemental";
 }
 
@@ -45,7 +45,7 @@ export function markerColor(status: ReportStatus) {
     case "suspected":
       return "#2563eb";
     case "supplemental_update":
-      return "#7c3aed";
+      return "#475569";
     default:
       return "#64748b";
   }

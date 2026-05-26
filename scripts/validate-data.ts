@@ -80,6 +80,12 @@ assertUnique(markerIds, "generated markerId");
 const canadaVictoria = markerIds.find((id) => id.includes("victoria-bc"));
 if (!canadaVictoria) errors.push("Canada/Victoria MV Hondius marker is missing");
 
+const madridGomezUlla = markerCounts(events, allReports)
+  .filter((marker) => marker.eventId === "mv-hondius-andes-2026" && marker.country === "Spain" && marker.id.includes("gomez-ulla"));
+if (!madridGomezUlla.length) errors.push("Madrid/Gómez Ulla MV Hondius marker is missing");
+if (madridGomezUlla.some((marker) => positive(marker.counts?.deaths))) errors.push("Madrid/Gómez Ulla marker has location-level deaths; expected zero/null");
+if (!madridGomezUlla.some((marker) => positive(marker.counts?.confirmed))) errors.push("Madrid/Gómez Ulla marker is missing location-specific confirmed counts");
+
 const usHondiusConfirmed = markerCounts(events, allReports)
   .filter((marker) => marker.eventId === "mv-hondius-andes-2026" && marker.country === "USA")
   .filter((marker) => positive(marker.counts?.confirmed));
@@ -164,13 +170,13 @@ function buildMarkerIds(eventList: AnyRecord[], reportList: AnyRecord[]) {
 }
 
 function markerCounts(eventList: AnyRecord[], reportList: AnyRecord[]) {
-  const markers: Array<{ eventId: string; country: string; counts: AnyRecord | null }> = [];
+  const markers: Array<{ id: string; eventId: string; country: string; counts: AnyRecord | null }> = [];
   for (const event of eventList) {
-    markers.push({ eventId: event.eventId, country: event.primaryLocation.country, counts: event.latestOfficialCounts });
-    for (const location of event.locations || []) markers.push({ eventId: event.eventId, country: location.country, counts: location.counts || location.locationCounts || null });
+    markers.push({ id: `${event.eventId}__primary`, eventId: event.eventId, country: event.primaryLocation.country, counts: event.latestOfficialCounts });
+    for (const location of event.locations || []) markers.push({ id: `${event.eventId}__${slugify(location.locationId || location.name || "")}`, eventId: event.eventId, country: location.country, counts: location.counts || location.locationCounts || null });
   }
   for (const report of reportList) {
-    for (const location of report.locationMentions || []) markers.push({ eventId: report.eventId, country: location.country, counts: location.counts || null });
+    for (const location of report.locationMentions || []) markers.push({ id: `${report.eventId || "no-event"}__${slugify(location.name || "")}__${report.reportId}`, eventId: report.eventId, country: location.country, counts: location.counts || null });
   }
   return markers;
 }

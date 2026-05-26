@@ -42,7 +42,7 @@ export function InteractiveMaps({ reports, candidates = [], lastUpdated }: { rep
 
   return (
     <div className="space-y-6">
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         <StatCard label="Confirmed clusters" value={counts.confirmed} icon={BadgeCheck} />
         <StatCard label="Screening clusters" value={counts.screenings} icon={ClipboardCheck} />
         <StatCard label="Deaths" value={counts.deaths} icon={Skull} />
@@ -72,8 +72,14 @@ export function InteractiveMaps({ reports, candidates = [], lastUpdated }: { rep
         />
       </section>
 
-      <section className="grid gap-6 xl:grid-cols-[1fr_430px]">
-        <DashboardMap reports={visibleReports} focusReportId={focusReportId} heightClass="h-[62dvh] min-h-[430px] md:h-[64dvh] xl:h-[720px]" initialHistorical={tab === "all"} />
+      <section className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_430px]">
+        <DashboardMap
+          reports={visibleReports}
+          focusReportId={focusReportId}
+          heightClass="h-[62dvh] min-h-[380px] max-h-[760px] md:h-[64dvh] md:min-h-[460px] xl:h-[720px]"
+          initialHistorical={tab === "all"}
+          resizeKey={`${tab}:${sourceMode}:${visibleReports.map((report) => report.id).join("|")}`}
+        />
         <aside className="panel overflow-hidden">
           <div className="border-b border-slate-200 p-5 dark:border-slate-800">
             <p className="kicker">Interactive Case Map</p>

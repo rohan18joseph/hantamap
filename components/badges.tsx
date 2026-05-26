@@ -15,7 +15,7 @@ export function SourceBadge({ report }: { report: HantamapReport }) {
         ? "bg-blue-100 text-blue-800 ring-blue-200 dark:bg-blue-950 dark:text-blue-200 dark:ring-blue-800"
         : report.sourceType === "discovery"
           ? "bg-slate-100 text-slate-700 ring-slate-200 dark:bg-slate-800 dark:text-slate-200 dark:ring-slate-700"
-          : "bg-violet-100 text-violet-800 ring-violet-200 dark:bg-violet-950 dark:text-violet-200 dark:ring-violet-800";
+          : "bg-slate-100 text-slate-800 ring-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-700";
   return <span className={`badge ${tone}`}>{sourceBadge(report)}</span>;
 }
 
@@ -42,7 +42,7 @@ export function ReportBadges({ report }: { report: HantamapReport }) {
         </span>
       ) : null}
       {report.locationType === "travel_route" ? (
-        <span className="badge bg-sky-100 text-sky-800 ring-sky-200 dark:bg-sky-950 dark:text-sky-200 dark:ring-sky-800">
+        <span className="badge bg-blue-50 text-blue-800 ring-blue-200 dark:bg-blue-950 dark:text-blue-200 dark:ring-blue-800">
           Travel-linked
         </span>
       ) : null}

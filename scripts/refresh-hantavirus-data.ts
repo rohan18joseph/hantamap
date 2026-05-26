@@ -169,6 +169,46 @@ const sources: Source[] = [
     mode: "html"
   },
   {
+    name: "Reuters Spain Madrid Gomez Ulla positive update",
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+    sourceName: "Reuters",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "El Pais Spain Madrid Gomez Ulla positive update",
+    url: "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+    sourceName: "El País",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "HuffPost Spain Gomez Ulla positive update",
+    url: "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+    sourceName: "HuffPost Spain",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "People Spain MV Hondius positive update",
+    url: "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+    sourceName: "People",
+    sourceType: "supplemental_news",
+    confidence: "medium",
+    mode: "html"
+  },
+  {
+    name: "The Sun MV Hondius Spain count snapshot",
+    url: "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/",
+    sourceName: "The Sun",
+    sourceType: "supplemental_news",
+    confidence: "low",
+    mode: "html"
+  },
+  {
     name: "HuffPost Spain Rotterdam disinfection logistics",
     url: "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
     sourceName: "HuffPost Spain",

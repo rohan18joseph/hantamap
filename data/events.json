@@ -255,21 +255,6 @@
         ]
       },
       {
-        "locationId": "madrid-military-hospital-mv-hondius",
-        "name": "Madrid military hospital",
-        "city": "Madrid",
-        "state": null,
-        "country": "Spain",
-        "latitude": 40.4168,
-        "longitude": -3.7038,
-        "locationType": "treatment_location",
-        "description": "Location-specific evidence reports one Spanish passenger in quarantine at a Madrid military hospital who tested positive.",
-        "sourceUrls": [
-          "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb",
-          "https://www.cidrap.umn.edu/misc-emerging-topics/hantavirus-outbreak-grows-11-cases-9-confirmed"
-        ]
-      },
-      {
         "locationId": "bichat-hospital-paris-mv-hondius",
         "name": "Bichat Hospital, Paris",
         "city": "Paris",
@@ -813,6 +798,194 @@
           "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
         ],
         "countNotes": "King County location-specific monitoring count reported by Axios Seattle; not a confirmed infection count."
+      },
+      {
+        "locationId": "mv-hondius-spain-madrid-gomez-ulla-quarantine-2026",
+        "name": "Hospital Central de la Defensa Gómez Ulla",
+        "city": "Madrid",
+        "state": null,
+        "country": "Spain",
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "locationType": "quarantine_location",
+        "description": "Madrid quarantine and hospital monitoring location for 14 Spanish MV Hondius evacuees. Supplemental May 25/26 reporting says a second Spanish evacuee tested positive while already isolated; authorities said this did not change the general-public risk level. Location-specific deaths remain zero.",
+        "sourceUrls": [
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+          "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+          "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+          "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462"
+        ],
+        "sourceNames": [
+          "Reuters",
+          "El País",
+          "HuffPost Spain",
+          "People"
+        ],
+        "locationPrecision": "city",
+        "counts": {
+          "confirmed": 2,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 1,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 14,
+          "monitored": 14,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 14
+        },
+        "locationCounts": {
+          "confirmed": 2,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": 1,
+          "negative": null,
+          "deaths": 0,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": 14,
+          "monitored": 14,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 14
+        },
+        "countSources": [
+          {
+            "sourceName": "Reuters",
+            "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+            "sourceType": "supplemental_news",
+            "confidence": "medium",
+            "reportedAt": "2026-05-25",
+            "counts": {
+              "confirmed": 2,
+              "presumptivePositive": null,
+              "pendingConfirmation": null,
+              "inconclusive": null,
+              "suspected": null,
+              "probable": null,
+              "screened": null,
+              "symptomatic": null,
+              "asymptomatic": 1,
+              "negative": null,
+              "deaths": 0,
+              "hospitalized": null,
+              "critical": null,
+              "quarantined": 14,
+              "monitored": 14,
+              "recovered": null,
+              "clearedNegative": null,
+              "totalReported": 14
+            },
+            "notes": "Reuters reported Spain's health ministry said a Spanish national quarantined at Madrid's Gómez Ulla hospital tested positive and was transferred to a high-level isolation unit. This is location-specific evidence and does not change U.S. confirmed case counts."
+          },
+          {
+            "sourceName": "El País",
+            "sourceUrl": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+            "sourceType": "supplemental_news",
+            "confidence": "medium",
+            "reportedAt": "2026-05-25",
+            "counts": {
+              "confirmed": 2,
+              "presumptivePositive": null,
+              "pendingConfirmation": null,
+              "inconclusive": null,
+              "suspected": null,
+              "probable": null,
+              "screened": null,
+              "symptomatic": null,
+              "asymptomatic": 1,
+              "negative": null,
+              "deaths": 0,
+              "hospitalized": null,
+              "critical": null,
+              "quarantined": 14,
+              "monitored": 14,
+              "recovered": null,
+              "clearedNegative": null,
+              "totalReported": 14
+            },
+            "notes": "El País reported a second positive among Spanish evacuees already under quarantine at Gómez Ulla, described the newly detected case as asymptomatic, and noted Spanish health authorities said public risk was unchanged."
+          },
+          {
+            "sourceName": "HuffPost Spain",
+            "sourceUrl": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+            "sourceType": "supplemental_news",
+            "confidence": "medium",
+            "reportedAt": "2026-05-25",
+            "counts": {
+              "confirmed": 2,
+              "presumptivePositive": null,
+              "pendingConfirmation": null,
+              "inconclusive": null,
+              "suspected": null,
+              "probable": null,
+              "screened": null,
+              "symptomatic": null,
+              "asymptomatic": 1,
+              "negative": null,
+              "deaths": 0,
+              "hospitalized": null,
+              "critical": null,
+              "quarantined": 14,
+              "monitored": 14,
+              "recovered": null,
+              "clearedNegative": null,
+              "totalReported": 14
+            },
+            "notes": "HuffPost Spain reported the new positive was detected during periodic checks while the person was already under clinical surveillance and isolation at Gómez Ulla; authorities said the general-public risk level was not changed."
+          },
+          {
+            "sourceName": "People",
+            "sourceUrl": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+            "sourceType": "supplemental_news",
+            "confidence": "medium",
+            "reportedAt": "2026-05-26",
+            "counts": {
+              "confirmed": 2,
+              "presumptivePositive": null,
+              "pendingConfirmation": null,
+              "inconclusive": null,
+              "suspected": null,
+              "probable": null,
+              "screened": null,
+              "symptomatic": null,
+              "asymptomatic": 1,
+              "negative": null,
+              "deaths": 0,
+              "hospitalized": null,
+              "critical": null,
+              "quarantined": 14,
+              "monitored": 14,
+              "recovered": null,
+              "clearedNegative": null,
+              "totalReported": 14
+            },
+            "notes": "People reported the patient was one of 14 Spanish nationals evacuated from MV Hondius, the second Spaniard to test positive, and that Spanish health authorities said the detection did not change general-public risk."
+          }
+        ],
+        "countSourceUrls": [
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+          "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+          "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+          "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462"
+        ],
+        "countNotes": "Second Spanish evacuee tested positive while already under quarantine in Madrid. Authorities said this does not change the general-public risk level. These are location-specific quarantine/testing counts; MV Hondius event-wide deaths are not assigned to Madrid.",
+        "relatedEventIds": [
+          "mv-hondius-andes-2026"
+        ]
       }
     ],
     "latestOfficialCounts": {
@@ -836,24 +1009,24 @@
       "totalReported": 11
     },
     "latestSupplementalCounts": {
-      "confirmed": 2,
+      "confirmed": 11,
       "presumptivePositive": null,
       "pendingConfirmation": null,
       "inconclusive": null,
       "suspected": null,
-      "probable": null,
+      "probable": 2,
       "screened": null,
-      "symptomatic": 2,
-      "asymptomatic": 2,
+      "symptomatic": null,
+      "asymptomatic": null,
       "negative": null,
       "deaths": 3,
       "hospitalized": 2,
       "critical": null,
-      "quarantined": 15,
-      "monitored": 29,
+      "quarantined": 14,
+      "monitored": 41,
       "recovered": null,
       "clearedNegative": 1,
-      "totalReported": null
+      "totalReported": 13
     },
     "countSnapshots": [
       {
@@ -1527,6 +1700,62 @@
           "totalReported": 27
         },
         "notes": "RIVM reported MV Hondius arrived in Rotterdam with 27 people still on board for controlled disembarkation, health checks, cleaning, and disinfection. These are logistics/monitoring details, not confirmed cases."
+      },
+      {
+        "sourceName": "People",
+        "sourceUrl": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+        "sourceType": "supplemental_news",
+        "confidence": "medium",
+        "reportedAt": "2026-05-26",
+        "counts": {
+          "confirmed": 11,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": 2,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 3,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 13
+        },
+        "notes": "People cited ECDC data indicating 11 confirmed and two probable MV Hondius-linked cases. This is a supplemental event-wide snapshot and does not assign deaths to Madrid or other child locations."
+      },
+      {
+        "sourceName": "The Sun",
+        "sourceUrl": "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/",
+        "sourceType": "supplemental_news",
+        "confidence": "low",
+        "reportedAt": "2026-05-26",
+        "counts": {
+          "confirmed": null,
+          "presumptivePositive": null,
+          "pendingConfirmation": null,
+          "inconclusive": null,
+          "suspected": null,
+          "probable": null,
+          "screened": null,
+          "symptomatic": null,
+          "asymptomatic": null,
+          "negative": null,
+          "deaths": 3,
+          "hospitalized": null,
+          "critical": null,
+          "quarantined": null,
+          "monitored": null,
+          "recovered": null,
+          "clearedNegative": null,
+          "totalReported": 12
+        },
+        "notes": "The Sun reported WHO-linked context of 12 suspected and confirmed cases and three deaths. Treated as low-confidence supplemental event-wide history unless matched to an official WHO update."
       }
     ],
     "sourceTiersAvailable": [
@@ -1571,10 +1800,15 @@
       "ap-2026-canada-confirmed-positive-mv-hondius",
       "reuters-2026-who-revision-us-negative-mv-hondius",
       "rivm-2026-rotterdam-hondius-cleaning",
-      "huffpost-2026-rotterdam-hondius-disinfection"
+      "huffpost-2026-rotterdam-hondius-disinfection",
+      "reuters-2026-spain-madrid-gomez-ulla-second-positive",
+      "elpais-2026-gomez-ulla-second-positive",
+      "huffpost-spain-2026-gomez-ulla-second-positive",
+      "people-2026-spain-mv-hondius-second-positive",
+      "the-sun-2026-mv-hondius-count-snapshot"
     ],
-    "lastUpdated": "2026-05-20",
-    "summary": "MV Hondius Andes virus event with updated Canada confirmed case, U.S. monitoring/negative-test context, and Rotterdam disinfection logistics. Reports are evidence; event-wide counts vary by source/update time and do not leak to child location markers."
+    "lastUpdated": "2026-05-26",
+    "summary": "Cruise-linked Andes virus outbreak response with official event-level counts, U.S. monitoring kept separate from confirmed cases, and a May 25/26 supplemental Madrid update for a second Spanish evacuee who tested positive while already quarantined at Gómez Ulla."
   },
   {
     "eventId": "nevada-quad-county-hantavirus-2026",

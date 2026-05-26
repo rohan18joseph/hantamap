@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-05-25T12:46:07.201Z",
-  "refreshedAt": "2026-05-25T12:46:07.201Z",
+  "lastRefresh": "2026-05-26T14:32:45Z",
+  "refreshedAt": "2026-05-26T14:32:45Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -684,5 +684,17 @@
       "discoveredUrls": 0,
       "error": "fetch failed"
     }
-  ]
+  ],
+  "latestManualUpdate": {
+    "updatedAt": "2026-05-26T14:32:45Z",
+    "summary": "Added May 25/26 Madrid Gómez Ulla supplemental evidence and event-wide MV Hondius count snapshots while preserving location-specific count attribution.",
+    "sourceUrls": [
+      "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+      "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+      "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+      "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+      "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/"
+    ]
+  },
+  "notes": "Manual May 26 update added Spain/Madrid Gómez Ulla location-specific counts, Reuters/El País/HuffPost/People evidence, People/The Sun event-wide supplemental snapshots, and preserved U.S. cruise-linked monitoring as non-confirmed."
 }

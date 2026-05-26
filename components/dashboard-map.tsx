@@ -21,6 +21,7 @@ export type DashboardMapProps = {
   focusReportId?: string;
   heightClass?: string;
   initialHistorical?: boolean;
+  resizeKey?: string;
 };
 
 export function DashboardMap(props: DashboardMapProps) {
