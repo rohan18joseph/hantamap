@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-05-26T14:32:45Z",
-  "refreshedAt": "2026-05-26T14:32:45Z",
+  "lastRefresh": "2026-05-27T12:33:06.762Z",
+  "refreshedAt": "2026-05-27T12:33:06.762Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -133,6 +133,49 @@
       "error": "HTTP 401"
     },
     {
+      "name": "Reuters Spain Madrid Gomez Ulla positive update",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 401,
+      "error": "HTTP 401"
+    },
+    {
+      "name": "El Pais Spain Madrid Gomez Ulla positive update",
+      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "HuffPost Spain Gomez Ulla positive update",
+      "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
+      "name": "People Spain MV Hondius positive update",
+      "url": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 402,
+      "error": "HTTP 402"
+    },
+    {
+      "name": "The Sun MV Hondius Spain count snapshot",
+      "url": "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/",
+      "ok": true,
+      "matchedItems": 1,
+      "discoveredUrls": 0,
+      "status": 200
+    },
+    {
       "name": "HuffPost Spain Rotterdam disinfection logistics",
       "url": "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
       "ok": true,
@@ -164,7 +207,12 @@
     "ap-2026-canada-confirmed-positive-mv-hondius",
     "reuters-2026-who-revision-us-negative-mv-hondius",
     "huffpost-2026-rotterdam-hondius-disinfection",
-    "the-sun-2026-colorado-hantavirus-death"
+    "the-sun-2026-colorado-hantavirus-death",
+    "reuters-2026-spain-madrid-gomez-ulla-second-positive",
+    "elpais-2026-gomez-ulla-second-positive",
+    "huffpost-spain-2026-gomez-ulla-second-positive",
+    "people-2026-spain-mv-hondius-second-positive",
+    "the-sun-2026-mv-hondius-count-snapshot"
   ],
   "debug": {
     "reportsDiscoveredPerSource": {
@@ -184,6 +232,11 @@
       "Guardian evacuated passengers update": 1,
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
+      "Reuters Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "HuffPost Spain Gomez Ulla positive update": 1,
+      "People Spain MV Hondius positive update": 0,
+      "The Sun MV Hondius Spain count snapshot": 1,
       "HuffPost Spain Rotterdam disinfection logistics": 1,
       "GDELT DOC API U.S. 2026 discovery": 0
     },
@@ -196,7 +249,7 @@
       "national_health_agency": 5,
       "health_system": 1,
       "state_health_department": 2,
-      "supplemental_news": 12,
+      "supplemental_news": 17,
       "local_health_department": 1
     },
     "allStateDiscoveryStatus": [
@@ -652,11 +705,11 @@
     "sourceModeCounts": {
       "officialOnly": 10,
       "officialLocal": 14,
-      "supplemental": 12,
+      "supplemental": 17,
       "needsReview": 2,
-      "everything": 26
+      "everything": 31
     },
-    "sourceRegistryCount": 20
+    "sourceRegistryCount": 21
   },
   "errors": [
     {
@@ -677,6 +730,33 @@
       "error": "HTTP 401"
     },
     {
+      "name": "Reuters Spain Madrid Gomez Ulla positive update",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 401,
+      "error": "HTTP 401"
+    },
+    {
+      "name": "El Pais Spain Madrid Gomez Ulla positive update",
+      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "People Spain MV Hondius positive update",
+      "url": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 402,
+      "error": "HTTP 402"
+    },
+    {
       "name": "GDELT DOC API U.S. 2026 discovery",
       "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
       "ok": false,
@@ -684,17 +764,5 @@
       "discoveredUrls": 0,
       "error": "fetch failed"
     }
-  ],
-  "latestManualUpdate": {
-    "updatedAt": "2026-05-26T14:32:45Z",
-    "summary": "Added May 25/26 Madrid Gómez Ulla supplemental evidence and event-wide MV Hondius count snapshots while preserving location-specific count attribution.",
-    "sourceUrls": [
-      "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/",
-      "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
-      "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
-      "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/"
-    ]
-  },
-  "notes": "Manual May 26 update added Spain/Madrid Gómez Ulla location-specific counts, Reuters/El País/HuffPost/People evidence, People/The Sun event-wide supplemental snapshots, and preserved U.S. cruise-linked monitoring as non-confirmed."
+  ]
 }
