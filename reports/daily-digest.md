@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-06-04 12:21 UTC
+Last refresh timestamp: 2026-06-05 12:20 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -56,7 +56,7 @@ Last refresh timestamp: 2026-06-04 12:21 UTC
 - ok: AP Canada confirmed positive update (https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae)
 - failed: Reuters WHO revision and U.S. negative test update (https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/) - HTTP 401
 - failed: Reuters Spain Madrid Gomez Ulla positive update (https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/) - HTTP 401
-- ok: El Pais Spain Madrid Gomez Ulla positive update (https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html)
+- failed: El Pais Spain Madrid Gomez Ulla positive update (https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html) - HTTP 403
 - ok: HuffPost Spain Gomez Ulla positive update (https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html)
 - failed: People Spain MV Hondius positive update (https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462) - HTTP 402
 - ok: The Sun MV Hondius Spain count snapshot (https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/)
