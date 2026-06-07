@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-06-06T11:00:35.378Z",
-  "refreshedAt": "2026-06-06T11:00:35.378Z",
+  "lastRefresh": "2026-06-07T11:17:07.355Z",
+  "refreshedAt": "2026-06-07T11:17:07.355Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -38,26 +38,26 @@
     {
       "name": "RIVM current information about hantavirus",
       "url": "https://www.rivm.nl/en/hantavirus/current-information",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "fetch failed"
     },
     {
       "name": "RIVM update hantavirus",
       "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "fetch failed"
     },
     {
       "name": "RIVM arrival and cleaning of cruise ship Hondius",
       "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "fetch failed"
     },
     {
       "name": "PHAC confirmed Canadian MV Hondius case",
@@ -78,10 +78,11 @@
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
       "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "New Jersey Department of Health MV Hondius monitoring",
@@ -144,11 +145,10 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -189,7 +189,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
     }
   ],
   "newCandidateReports": [],
@@ -220,12 +220,12 @@
       "CDC HAN00528": 1,
       "CDC Current Situation": 1,
       "ECDC Andes outbreak daily page": 1,
-      "RIVM current information about hantavirus": 1,
-      "RIVM update hantavirus": 1,
-      "RIVM arrival and cleaning of cruise ship Hondius": 1,
+      "RIVM current information about hantavirus": 0,
+      "RIVM update hantavirus": 0,
+      "RIVM arrival and cleaning of cruise ship Hondius": 0,
       "PHAC confirmed Canadian MV Hondius case": 0,
       "ASPR MV Hondius repatriation": 1,
-      "Nebraska Medicine monitoring for hantavirus": 1,
+      "Nebraska Medicine monitoring for hantavirus": 0,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
@@ -233,7 +233,7 @@
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 1,
       "HuffPost Spain Gomez Ulla positive update": 1,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
@@ -713,12 +713,45 @@
   },
   "errors": [
     {
+      "name": "RIVM current information about hantavirus",
+      "url": "https://www.rivm.nl/en/hantavirus/current-information",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "fetch failed"
+    },
+    {
+      "name": "RIVM update hantavirus",
+      "url": "https://www.rivm.nl/en/news/update-hantavirus",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "fetch failed"
+    },
+    {
+      "name": "RIVM arrival and cleaning of cruise ship Hondius",
+      "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "fetch failed"
+    },
+    {
       "name": "PHAC confirmed Canadian MV Hondius case",
       "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
       "error": "This operation was aborted"
+    },
+    {
+      "name": "Nebraska Medicine monitoring for hantavirus",
+      "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
@@ -739,15 +772,6 @@
       "error": "HTTP 401"
     },
     {
-      "name": "El Pais Spain Madrid Gomez Ulla positive update",
-      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
-    },
-    {
       "name": "People Spain MV Hondius positive update",
       "url": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
       "ok": false,
@@ -762,7 +786,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
     }
   ]
 }
