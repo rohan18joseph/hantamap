@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-07-05T11:14:21.417Z",
-  "refreshedAt": "2026-07-05T11:14:21.417Z",
+  "lastRefresh": "2026-07-06T12:59:36.296Z",
+  "refreshedAt": "2026-07-06T12:59:36.296Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -189,7 +189,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "fetch failed"
     }
   ],
   "newCandidateReports": [],
@@ -762,7 +762,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "fetch failed"
     }
   ]
 }
