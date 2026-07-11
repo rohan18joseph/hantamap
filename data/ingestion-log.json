@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-07-10T12:09:03.925Z",
-  "refreshedAt": "2026-07-10T12:09:03.925Z",
+  "lastRefresh": "2026-07-11T10:35:06.033Z",
+  "refreshedAt": "2026-07-11T10:35:06.033Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -63,10 +63,10 @@
     {
       "name": "PHAC confirmed Canadian MV Hondius case",
       "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "This operation was aborted"
+      "status": 200
     },
     {
       "name": "ASPR MV Hondius repatriation",
@@ -224,7 +224,7 @@
       "RIVM current information about hantavirus": 1,
       "RIVM update hantavirus": 1,
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
-      "PHAC confirmed Canadian MV Hondius case": 0,
+      "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
       "Nebraska Medicine monitoring for hantavirus": 1,
       "New Jersey Department of Health MV Hondius monitoring": 1,
@@ -721,14 +721,6 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
-    },
-    {
-      "name": "PHAC confirmed Canadian MV Hondius case",
-      "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "This operation was aborted"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
