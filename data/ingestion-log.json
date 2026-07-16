@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-07-15T11:02:38.834Z",
-  "refreshedAt": "2026-07-15T11:02:38.834Z",
+  "lastRefresh": "2026-07-16T11:13:12.470Z",
+  "refreshedAt": "2026-07-16T11:13:12.470Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -79,11 +79,10 @@
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
       "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 503,
-      "error": "HTTP 503"
+      "status": 200
     },
     {
       "name": "New Jersey Department of Health MV Hondius monitoring",
@@ -146,11 +145,10 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -227,7 +225,7 @@
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
-      "Nebraska Medicine monitoring for hantavirus": 0,
+      "Nebraska Medicine monitoring for hantavirus": 1,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
@@ -235,7 +233,7 @@
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 1,
       "HuffPost Spain Gomez Ulla positive update": 1,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
@@ -724,15 +722,6 @@
       "error": "HTTP 404"
     },
     {
-      "name": "Nebraska Medicine monitoring for hantavirus",
-      "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 503,
-      "error": "HTTP 503"
-    },
-    {
       "name": "Reuters WHO revision and U.S. negative test update",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
       "ok": false,
@@ -749,15 +738,6 @@
       "discoveredUrls": 0,
       "status": 401,
       "error": "HTTP 401"
-    },
-    {
-      "name": "El Pais Spain Madrid Gomez Ulla positive update",
-      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
     },
     {
       "name": "People Spain MV Hondius positive update",
