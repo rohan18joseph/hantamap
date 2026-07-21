@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-07-20T11:59:10.463Z",
-  "refreshedAt": "2026-07-20T11:59:10.463Z",
+  "lastRefresh": "2026-07-21T11:19:37.160Z",
+  "refreshedAt": "2026-07-21T11:19:37.160Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -79,10 +79,11 @@
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
       "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "New Jersey Department of Health MV Hondius monitoring",
@@ -226,7 +227,7 @@
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
-      "Nebraska Medicine monitoring for hantavirus": 1,
+      "Nebraska Medicine monitoring for hantavirus": 0,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
@@ -721,6 +722,15 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
+    },
+    {
+      "name": "Nebraska Medicine monitoring for hantavirus",
+      "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
