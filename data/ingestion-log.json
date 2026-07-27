@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-07-26T10:54:16.312Z",
-  "refreshedAt": "2026-07-26T10:54:16.312Z",
+  "lastRefresh": "2026-07-27T12:37:47.782Z",
+  "refreshedAt": "2026-07-27T12:37:47.782Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -31,10 +31,11 @@
     {
       "name": "ECDC Andes outbreak daily page",
       "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 503,
+      "error": "HTTP 503"
     },
     {
       "name": "RIVM current information about hantavirus",
@@ -190,7 +191,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "HTTP 429"
+      "error": "fetch failed"
     }
   ],
   "newCandidateReports": [],
@@ -220,7 +221,7 @@
       "WHO Disease Outbreak News DON600": 1,
       "CDC HAN00528": 1,
       "CDC Current Situation": 0,
-      "ECDC Andes outbreak daily page": 1,
+      "ECDC Andes outbreak daily page": 0,
       "RIVM current information about hantavirus": 1,
       "RIVM update hantavirus": 1,
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
@@ -723,6 +724,15 @@
       "error": "HTTP 404"
     },
     {
+      "name": "ECDC Andes outbreak daily page",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 503,
+      "error": "HTTP 503"
+    },
+    {
       "name": "Reuters WHO revision and U.S. negative test update",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
       "ok": false,
@@ -764,7 +774,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "HTTP 429"
+      "error": "fetch failed"
     }
   ]
 }
