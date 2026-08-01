@@ -1,15 +1,16 @@
 {
-  "lastRefresh": "2026-07-31T11:35:39.611Z",
-  "refreshedAt": "2026-07-31T11:35:39.611Z",
+  "lastRefresh": "2026-08-01T10:50:11.933Z",
+  "refreshedAt": "2026-08-01T10:50:11.933Z",
   "timezone": "UTC",
   "sourceResults": [
     {
       "name": "WHO Disease Outbreak News DON600",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 400,
+      "error": "HTTP 400"
     },
     {
       "name": "CDC HAN00528",
@@ -145,10 +146,11 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -216,7 +218,7 @@
   ],
   "debug": {
     "reportsDiscoveredPerSource": {
-      "WHO Disease Outbreak News DON600": 1,
+      "WHO Disease Outbreak News DON600": 0,
       "CDC HAN00528": 1,
       "CDC Current Situation": 0,
       "ECDC Andes outbreak daily page": 1,
@@ -233,7 +235,7 @@
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 1,
+      "El Pais Spain Madrid Gomez Ulla positive update": 0,
       "HuffPost Spain Gomez Ulla positive update": 1,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
@@ -713,6 +715,15 @@
   },
   "errors": [
     {
+      "name": "WHO Disease Outbreak News DON600",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 400,
+      "error": "HTTP 400"
+    },
+    {
       "name": "CDC Current Situation",
       "url": "https://www.cdc.gov/hantavirus/situation-summary/index.html",
       "ok": false,
@@ -738,6 +749,15 @@
       "discoveredUrls": 0,
       "status": 401,
       "error": "HTTP 401"
+    },
+    {
+      "name": "El Pais Spain Madrid Gomez Ulla positive update",
+      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "People Spain MV Hondius positive update",
