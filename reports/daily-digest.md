@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-08-01 10:50 UTC
+Last refresh timestamp: 2026-08-02 10:51 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -39,7 +39,7 @@ Last refresh timestamp: 2026-08-01 10:50 UTC
 - All-state discovery jurisdictions: 56
 
 ## Source Fetch Status
-- failed: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600) - HTTP 400
+- ok: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600)
 - ok: CDC HAN00528 (https://www.cdc.gov/han/php/notices/han00528.html)
 - failed: CDC Current Situation (https://www.cdc.gov/hantavirus/situation-summary/index.html) - HTTP 404
 - ok: ECDC Andes outbreak daily page (https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak)
