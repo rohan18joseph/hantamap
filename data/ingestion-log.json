@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-08-03T12:37:06.287Z",
-  "refreshedAt": "2026-08-03T12:37:06.287Z",
+  "lastRefresh": "2026-08-04T11:34:41.785Z",
+  "refreshedAt": "2026-08-04T11:34:41.785Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -71,10 +71,10 @@
     {
       "name": "ASPR MV Hondius repatriation",
       "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "This operation was aborted"
     },
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
@@ -190,7 +190,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "HTTP 429"
+      "error": "fetch failed"
     }
   ],
   "newCandidateReports": [],
@@ -225,7 +225,7 @@
       "RIVM update hantavirus": 1,
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
-      "ASPR MV Hondius repatriation": 1,
+      "ASPR MV Hondius repatriation": 0,
       "Nebraska Medicine monitoring for hantavirus": 1,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
@@ -723,6 +723,14 @@
       "error": "HTTP 404"
     },
     {
+      "name": "ASPR MV Hondius repatriation",
+      "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Reuters WHO revision and U.S. negative test update",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/",
       "ok": false,
@@ -764,7 +772,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "HTTP 429"
+      "error": "fetch failed"
     }
   ]
 }
