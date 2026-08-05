@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-08-04T11:34:41.785Z",
-  "refreshedAt": "2026-08-04T11:34:41.785Z",
+  "lastRefresh": "2026-08-05T11:30:58.681Z",
+  "refreshedAt": "2026-08-05T11:30:58.681Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -71,10 +71,10 @@
     {
       "name": "ASPR MV Hondius repatriation",
       "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "This operation was aborted"
+      "status": 200
     },
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
@@ -225,7 +225,7 @@
       "RIVM update hantavirus": 1,
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
-      "ASPR MV Hondius repatriation": 0,
+      "ASPR MV Hondius repatriation": 1,
       "Nebraska Medicine monitoring for hantavirus": 1,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
@@ -721,14 +721,6 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
-    },
-    {
-      "name": "ASPR MV Hondius repatriation",
-      "url": "https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "This operation was aborted"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
