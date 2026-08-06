@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-08-05T11:30:58.681Z",
-  "refreshedAt": "2026-08-05T11:30:58.681Z",
+  "lastRefresh": "2026-08-06T11:34:19.127Z",
+  "refreshedAt": "2026-08-06T11:34:19.127Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -145,11 +145,10 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -234,7 +233,7 @@
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 1,
       "HuffPost Spain Gomez Ulla positive update": 1,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
@@ -739,15 +738,6 @@
       "discoveredUrls": 0,
       "status": 401,
       "error": "HTTP 401"
-    },
-    {
-      "name": "El Pais Spain Madrid Gomez Ulla positive update",
-      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
     },
     {
       "name": "People Spain MV Hondius positive update",
