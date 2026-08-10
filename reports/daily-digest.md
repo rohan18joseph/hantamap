@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-08-09 09:58 UTC
+Last refresh timestamp: 2026-08-10 10:37 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -39,16 +39,16 @@ Last refresh timestamp: 2026-08-09 09:58 UTC
 - All-state discovery jurisdictions: 56
 
 ## Source Fetch Status
-- ok: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600)
+- failed: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600) - HTTP 400
 - ok: CDC HAN00528 (https://www.cdc.gov/han/php/notices/han00528.html)
 - failed: CDC Current Situation (https://www.cdc.gov/hantavirus/situation-summary/index.html) - HTTP 404
 - ok: ECDC Andes outbreak daily page (https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak)
-- failed: RIVM current information about hantavirus (https://www.rivm.nl/en/hantavirus/current-information) - fetch failed
-- failed: RIVM update hantavirus (https://www.rivm.nl/en/news/update-hantavirus) - fetch failed
-- failed: RIVM arrival and cleaning of cruise ship Hondius (https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius) - fetch failed
+- ok: RIVM current information about hantavirus (https://www.rivm.nl/en/hantavirus/current-information)
+- ok: RIVM update hantavirus (https://www.rivm.nl/en/news/update-hantavirus)
+- ok: RIVM arrival and cleaning of cruise ship Hondius (https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius)
 - ok: PHAC confirmed Canadian MV Hondius case (https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html)
 - ok: ASPR MV Hondius repatriation (https://www.hhs.gov/press-room/hhs-supports-repatriation-us-citizens-specialized-care-facilities.html)
-- ok: Nebraska Medicine monitoring for hantavirus (https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/)
+- failed: Nebraska Medicine monitoring for hantavirus (https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/) - HTTP 503
 - ok: New Jersey Department of Health MV Hondius monitoring (https://www.nj.gov/health/news/2026/20260508a.shtml)
 - ok: North Carolina DHHS MV Hondius passenger update (https://www.ncdhhs.gov/news/press-releases/2026/05/11/north-carolina-closely-monitoring-hantavirus)
 - ok: CBS Atlanta Emory negative test update (https://www.cbsnews.com/atlanta/news/hantavirus-outbreak-cruise-ship-passenger-with-symptoms-at-emory-tests-negative-for-virus/)
@@ -61,4 +61,4 @@ Last refresh timestamp: 2026-08-09 09:58 UTC
 - failed: People Spain MV Hondius positive update (https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462) - HTTP 402
 - ok: The Sun MV Hondius Spain count snapshot (https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/)
 - ok: HuffPost Spain Rotterdam disinfection logistics (https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html)
-- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - Unexpected token 'P', "Parenthese"... is not valid JSON
+- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - HTTP 429

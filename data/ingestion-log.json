@@ -1,15 +1,16 @@
 {
-  "lastRefresh": "2026-08-09T09:58:32.388Z",
-  "refreshedAt": "2026-08-09T09:58:32.388Z",
+  "lastRefresh": "2026-08-10T10:37:26.670Z",
+  "refreshedAt": "2026-08-10T10:37:26.670Z",
   "timezone": "UTC",
   "sourceResults": [
     {
       "name": "WHO Disease Outbreak News DON600",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 400,
+      "error": "HTTP 400"
     },
     {
       "name": "CDC HAN00528",
@@ -39,26 +40,26 @@
     {
       "name": "RIVM current information about hantavirus",
       "url": "https://www.rivm.nl/en/hantavirus/current-information",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "RIVM update hantavirus",
       "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "RIVM arrival and cleaning of cruise ship Hondius",
       "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "PHAC confirmed Canadian MV Hondius case",
@@ -79,10 +80,11 @@
     {
       "name": "Nebraska Medicine monitoring for hantavirus",
       "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 503,
+      "error": "HTTP 503"
     },
     {
       "name": "New Jersey Department of Health MV Hondius monitoring",
@@ -190,7 +192,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ],
   "newCandidateReports": [],
@@ -217,16 +219,16 @@
   ],
   "debug": {
     "reportsDiscoveredPerSource": {
-      "WHO Disease Outbreak News DON600": 1,
+      "WHO Disease Outbreak News DON600": 0,
       "CDC HAN00528": 1,
       "CDC Current Situation": 0,
       "ECDC Andes outbreak daily page": 1,
-      "RIVM current information about hantavirus": 0,
-      "RIVM update hantavirus": 0,
-      "RIVM arrival and cleaning of cruise ship Hondius": 0,
+      "RIVM current information about hantavirus": 1,
+      "RIVM update hantavirus": 1,
+      "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
-      "Nebraska Medicine monitoring for hantavirus": 1,
+      "Nebraska Medicine monitoring for hantavirus": 0,
       "New Jersey Department of Health MV Hondius monitoring": 1,
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
@@ -714,6 +716,15 @@
   },
   "errors": [
     {
+      "name": "WHO Disease Outbreak News DON600",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 400,
+      "error": "HTTP 400"
+    },
+    {
       "name": "CDC Current Situation",
       "url": "https://www.cdc.gov/hantavirus/situation-summary/index.html",
       "ok": false,
@@ -723,28 +734,13 @@
       "error": "HTTP 404"
     },
     {
-      "name": "RIVM current information about hantavirus",
-      "url": "https://www.rivm.nl/en/hantavirus/current-information",
+      "name": "Nebraska Medicine monitoring for hantavirus",
+      "url": "https://www.unmc.edu/newsroom/2026/05/11/cruise-ship-passengers-arrive-at-national-quarantine-unit/",
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
-    },
-    {
-      "name": "RIVM update hantavirus",
-      "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "fetch failed"
-    },
-    {
-      "name": "RIVM arrival and cleaning of cruise ship Hondius",
-      "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 503,
+      "error": "HTTP 503"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
@@ -788,7 +784,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ]
 }
