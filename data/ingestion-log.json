@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-08-12T10:27:44.146Z",
-  "refreshedAt": "2026-08-12T10:27:44.146Z",
+  "lastRefresh": "2026-08-13T10:29:17.525Z",
+  "refreshedAt": "2026-08-13T10:29:17.525Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -154,10 +154,11 @@
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
       "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "People Spain MV Hondius positive update",
@@ -179,10 +180,11 @@
     {
       "name": "HuffPost Spain Rotterdam disinfection logistics",
       "url": "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "GDELT DOC API U.S. 2026 discovery",
@@ -235,10 +237,10 @@
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
       "El Pais Spain Madrid Gomez Ulla positive update": 0,
-      "HuffPost Spain Gomez Ulla positive update": 1,
+      "HuffPost Spain Gomez Ulla positive update": 0,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
-      "HuffPost Spain Rotterdam disinfection logistics": 1,
+      "HuffPost Spain Rotterdam disinfection logistics": 0,
       "GDELT DOC API U.S. 2026 discovery": 0
     },
     "eventsAfterDeduplication": 4,
@@ -750,6 +752,15 @@
       "error": "HTTP 403"
     },
     {
+      "name": "HuffPost Spain Gomez Ulla positive update",
+      "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
       "name": "People Spain MV Hondius positive update",
       "url": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
       "ok": false,
@@ -757,6 +768,15 @@
       "discoveredUrls": 0,
       "status": 402,
       "error": "HTTP 402"
+    },
+    {
+      "name": "HuffPost Spain Rotterdam disinfection logistics",
+      "url": "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "GDELT DOC API U.S. 2026 discovery",
