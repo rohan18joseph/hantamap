@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-08-26T09:59:26.404Z",
-  "refreshedAt": "2026-08-26T09:59:26.404Z",
+  "lastRefresh": "2026-08-27T19:52:12.878Z",
+  "refreshedAt": "2026-08-27T19:52:12.878Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -145,11 +145,10 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -173,7 +172,7 @@
       "name": "The Sun MV Hondius Spain count snapshot",
       "url": "https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/",
       "ok": true,
-      "matchedItems": 1,
+      "matchedItems": 0,
       "discoveredUrls": 0,
       "status": 200
     },
@@ -236,10 +235,10 @@
       "AP Canada confirmed positive update": 1,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 1,
       "HuffPost Spain Gomez Ulla positive update": 0,
       "People Spain MV Hondius positive update": 0,
-      "The Sun MV Hondius Spain count snapshot": 1,
+      "The Sun MV Hondius Spain count snapshot": 0,
       "HuffPost Spain Rotterdam disinfection logistics": 0,
       "GDELT DOC API U.S. 2026 discovery": 0
     },
@@ -741,15 +740,6 @@
       "discoveredUrls": 0,
       "status": 401,
       "error": "HTTP 401"
-    },
-    {
-      "name": "El Pais Spain Madrid Gomez Ulla positive update",
-      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
