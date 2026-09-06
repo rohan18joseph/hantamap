@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-09-05T12:45:25.824Z",
-  "refreshedAt": "2026-09-05T12:45:25.824Z",
+  "lastRefresh": "2026-09-06T12:54:08.328Z",
+  "refreshedAt": "2026-09-06T12:54:08.328Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -39,26 +39,26 @@
     {
       "name": "RIVM current information about hantavirus",
       "url": "https://www.rivm.nl/en/hantavirus/current-information",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "RIVM update hantavirus",
       "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "RIVM arrival and cleaning of cruise ship Hondius",
       "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "status": 200
     },
     {
       "name": "PHAC confirmed Canadian MV Hondius case",
@@ -223,9 +223,9 @@
       "CDC HAN00528": 1,
       "CDC Current Situation": 0,
       "ECDC Andes outbreak daily page": 1,
-      "RIVM current information about hantavirus": 0,
-      "RIVM update hantavirus": 0,
-      "RIVM arrival and cleaning of cruise ship Hondius": 0,
+      "RIVM current information about hantavirus": 1,
+      "RIVM update hantavirus": 1,
+      "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
       "Nebraska Medicine monitoring for hantavirus": 1,
@@ -723,30 +723,6 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
-    },
-    {
-      "name": "RIVM current information about hantavirus",
-      "url": "https://www.rivm.nl/en/hantavirus/current-information",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "fetch failed"
-    },
-    {
-      "name": "RIVM update hantavirus",
-      "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "fetch failed"
-    },
-    {
-      "name": "RIVM arrival and cleaning of cruise ship Hondius",
-      "url": "https://www.rivm.nl/en/news/arrival-and-cleaning-of-cruise-ship-hondius",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "error": "fetch failed"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
