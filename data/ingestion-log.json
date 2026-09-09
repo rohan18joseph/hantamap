@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-09-08T13:40:00.099Z",
-  "refreshedAt": "2026-09-08T13:40:00.099Z",
+  "lastRefresh": "2026-09-09T13:45:34.829Z",
+  "refreshedAt": "2026-09-09T13:45:34.829Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -119,10 +119,11 @@
     {
       "name": "AP Canada confirmed positive update",
       "url": "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
@@ -232,7 +233,7 @@
       "North Carolina DHHS MV Hondius passenger update": 1,
       "CBS Atlanta Emory negative test update": 1,
       "Guardian evacuated passengers update": 1,
-      "AP Canada confirmed positive update": 1,
+      "AP Canada confirmed positive update": 0,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
       "El Pais Spain Madrid Gomez Ulla positive update": 1,
@@ -722,6 +723,15 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
+    },
+    {
+      "name": "AP Canada confirmed positive update",
+      "url": "https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "Reuters WHO revision and U.S. negative test update",
