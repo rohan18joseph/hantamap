@@ -1,6 +1,6 @@
 # Hantamap Daily Digest
 
-Last refresh timestamp: 2026-09-10 13:38 UTC
+Last refresh timestamp: 2026-09-11 13:37 UTC
 
 ## New Candidate Reports
 - GDELT discovery: 2026 U.S. local hantavirus reports (GDELT DOC API) - https://api.gdeltproject.org/api/v2/doc/doc?query=%22hantavirus%22%20%222026%22%20(%22confirmed%20case%22%20OR%20death%20OR%20monitoring%20OR%20quarantine%20OR%20hospital)&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959
@@ -39,7 +39,7 @@ Last refresh timestamp: 2026-09-10 13:38 UTC
 - All-state discovery jurisdictions: 56
 
 ## Source Fetch Status
-- failed: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600) - HTTP 400
+- ok: WHO Disease Outbreak News DON600 (https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600)
 - ok: CDC HAN00528 (https://www.cdc.gov/han/php/notices/han00528.html)
 - failed: CDC Current Situation (https://www.cdc.gov/hantavirus/situation-summary/index.html) - HTTP 404
 - ok: ECDC Andes outbreak daily page (https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak)
@@ -56,9 +56,9 @@ Last refresh timestamp: 2026-09-10 13:38 UTC
 - failed: AP Canada confirmed positive update (https://apnews.com/article/canada-hantavirus-positive-test-1ef18249115195f09381a174092a1cae) - HTTP 403
 - failed: Reuters WHO revision and U.S. negative test update (https://www.reuters.com/business/healthcare-pharmaceuticals/who-revises-hantavirus-cases-lower-after-us-passenger-tests-negative-2026-05-15/) - HTTP 401
 - failed: Reuters Spain Madrid Gomez Ulla positive update (https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-national-evacuated-hantavirus-cruise-ship-tests-positive-2026-05-25/) - HTTP 401
-- ok: El Pais Spain Madrid Gomez Ulla positive update (https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html)
+- failed: El Pais Spain Madrid Gomez Ulla positive update (https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html) - HTTP 403
 - failed: HuffPost Spain Gomez Ulla positive update (https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html) - HTTP 403
 - failed: People Spain MV Hondius positive update (https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462) - HTTP 402
 - ok: The Sun MV Hondius Spain count snapshot (https://www.the-sun.com/news/16410220/cruise-ship-hantavirus-alert-spain/)
 - failed: HuffPost Spain Rotterdam disinfection logistics (https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html) - HTTP 403
-- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - HTTP 429
+- failed: GDELT DOC API U.S. 2026 discovery (https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959) - fetch failed
