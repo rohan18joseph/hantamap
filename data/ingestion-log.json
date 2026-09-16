@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-09-15T14:20:42.558Z",
-  "refreshedAt": "2026-09-15T14:20:42.558Z",
+  "lastRefresh": "2026-09-16T14:13:16.419Z",
+  "refreshedAt": "2026-09-16T14:13:16.419Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -146,11 +146,10 @@
     {
       "name": "El Pais Spain Madrid Gomez Ulla positive update",
       "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
@@ -193,7 +192,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "fetch failed"
     }
   ],
   "newCandidateReports": [],
@@ -237,7 +236,7 @@
       "AP Canada confirmed positive update": 0,
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
-      "El Pais Spain Madrid Gomez Ulla positive update": 0,
+      "El Pais Spain Madrid Gomez Ulla positive update": 1,
       "HuffPost Spain Gomez Ulla positive update": 0,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
@@ -753,15 +752,6 @@
       "error": "HTTP 401"
     },
     {
-      "name": "El Pais Spain Madrid Gomez Ulla positive update",
-      "url": "https://elpais.com/sociedad/2026-05-25/otro-de-los-espanoles-que-guardan-cuarentena-en-el-gomez-ulla-da-positivo-en-hantavirus.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
-    },
-    {
       "name": "HuffPost Spain Gomez Ulla positive update",
       "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
       "ok": false,
@@ -794,7 +784,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "fetch failed"
     }
   ]
 }
