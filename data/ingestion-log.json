@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-09-24T14:14:07.961Z",
-  "refreshedAt": "2026-09-24T14:14:07.961Z",
+  "lastRefresh": "2026-09-25T14:37:40.679Z",
+  "refreshedAt": "2026-09-25T14:37:40.679Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -155,11 +155,10 @@
     {
       "name": "HuffPost Spain Gomez Ulla positive update",
       "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "People Spain MV Hondius positive update",
@@ -181,11 +180,10 @@
     {
       "name": "HuffPost Spain Rotterdam disinfection logistics",
       "url": "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
-      "ok": false,
-      "matchedItems": 0,
+      "ok": true,
+      "matchedItems": 1,
       "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 200
     },
     {
       "name": "GDELT DOC API U.S. 2026 discovery",
@@ -193,7 +191,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ],
   "newCandidateReports": [],
@@ -238,10 +236,10 @@
       "Reuters WHO revision and U.S. negative test update": 0,
       "Reuters Spain Madrid Gomez Ulla positive update": 0,
       "El Pais Spain Madrid Gomez Ulla positive update": 0,
-      "HuffPost Spain Gomez Ulla positive update": 0,
+      "HuffPost Spain Gomez Ulla positive update": 1,
       "People Spain MV Hondius positive update": 0,
       "The Sun MV Hondius Spain count snapshot": 1,
-      "HuffPost Spain Rotterdam disinfection logistics": 0,
+      "HuffPost Spain Rotterdam disinfection logistics": 1,
       "GDELT DOC API U.S. 2026 discovery": 0
     },
     "eventsAfterDeduplication": 4,
@@ -762,15 +760,6 @@
       "error": "HTTP 403"
     },
     {
-      "name": "HuffPost Spain Gomez Ulla positive update",
-      "url": "https://www.huffingtonpost.es/sociedad/confirmado-nuevo-caso-hantavirus-cruceristas-cuarentena-gomez-ulla-f202605.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
-    },
-    {
       "name": "People Spain MV Hondius positive update",
       "url": "https://people.com/passenger-evacuated-hantavirus-hit-cruise-ship-tests-positive-disease-spain-11983462",
       "ok": false,
@@ -780,21 +769,12 @@
       "error": "HTTP 402"
     },
     {
-      "name": "HuffPost Spain Rotterdam disinfection logistics",
-      "url": "https://www.huffingtonpost.es/sociedad/el-hondius-llega-roterdam-paises-bajos-desinfeccion-estrictas-medidas-sanitariasbr-f202605.html",
-      "ok": false,
-      "matchedItems": 0,
-      "discoveredUrls": 0,
-      "status": 403,
-      "error": "HTTP 403"
-    },
-    {
       "name": "GDELT DOC API U.S. 2026 discovery",
       "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(hantavirus)%20sourcelang%3Aenglish&mode=ArtList&format=json&maxrecords=50&sort=HybridRel&startdatetime=20260101000000&enddatetime=20261231235959",
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ]
 }
