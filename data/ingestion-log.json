@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-10-02T15:51:19.606Z",
-  "refreshedAt": "2026-10-02T15:51:19.606Z",
+  "lastRefresh": "2026-10-03T14:19:42.887Z",
+  "refreshedAt": "2026-10-03T14:19:42.887Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -193,7 +193,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ],
   "newCandidateReports": [],
@@ -794,7 +794,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "Unexpected token 'P', \"Parenthese\"... is not valid JSON"
+      "error": "HTTP 429"
     }
   ]
 }
