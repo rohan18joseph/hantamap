@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-10-03T14:19:42.887Z",
-  "refreshedAt": "2026-10-03T14:19:42.887Z",
+  "lastRefresh": "2026-10-04T14:48:40.410Z",
+  "refreshedAt": "2026-10-04T14:48:40.410Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -47,10 +47,10 @@
     {
       "name": "RIVM update hantavirus",
       "url": "https://www.rivm.nl/en/news/update-hantavirus",
-      "ok": true,
-      "matchedItems": 1,
+      "ok": false,
+      "matchedItems": 0,
       "discoveredUrls": 0,
-      "status": 200
+      "error": "fetch failed"
     },
     {
       "name": "RIVM arrival and cleaning of cruise ship Hondius",
@@ -225,7 +225,7 @@
       "CDC Current Situation": 0,
       "ECDC Andes outbreak daily page": 1,
       "RIVM current information about hantavirus": 1,
-      "RIVM update hantavirus": 1,
+      "RIVM update hantavirus": 0,
       "RIVM arrival and cleaning of cruise ship Hondius": 1,
       "PHAC confirmed Canadian MV Hondius case": 1,
       "ASPR MV Hondius repatriation": 1,
@@ -724,6 +724,14 @@
       "discoveredUrls": 0,
       "status": 404,
       "error": "HTTP 404"
+    },
+    {
+      "name": "RIVM update hantavirus",
+      "url": "https://www.rivm.nl/en/news/update-hantavirus",
+      "ok": false,
+      "matchedItems": 0,
+      "discoveredUrls": 0,
+      "error": "fetch failed"
     },
     {
       "name": "AP Canada confirmed positive update",
