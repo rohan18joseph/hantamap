@@ -1,6 +1,6 @@
 {
-  "lastRefresh": "2026-10-23T14:16:00.166Z",
-  "refreshedAt": "2026-10-23T14:16:00.166Z",
+  "lastRefresh": "2026-10-24T13:22:12.620Z",
+  "refreshedAt": "2026-10-24T13:22:12.620Z",
   "timezone": "UTC",
   "sourceResults": [
     {
@@ -193,7 +193,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "HTTP 429"
     }
   ],
   "newCandidateReports": [],
@@ -794,7 +794,7 @@
       "ok": false,
       "matchedItems": 0,
       "discoveredUrls": 0,
-      "error": "fetch failed"
+      "error": "HTTP 429"
     }
   ]
 }
