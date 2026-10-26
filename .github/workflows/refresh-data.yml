@@ -1,8 +1,7 @@
 name: Refresh Hantamap Data
 
 on:
-  schedule:
-    - cron: "17 9 * * *"
+  # Automatic source checks are paused. Run manually only when updates resume.
   workflow_dispatch:
 
 permissions:

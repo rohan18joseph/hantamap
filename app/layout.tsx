@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer } from "@/components/footer";
+import { DataPauseNotice } from "@/components/data-pause-notice";
 import { TopNav } from "@/components/nav";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="text-slate-950 antialiased dark:text-slate-100">
         <ThemeProvider>
           <TopNav />
+          <DataPauseNotice />
           {children}
           <Footer />
         </ThemeProvider>

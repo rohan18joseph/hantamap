@@ -5,6 +5,7 @@ import { Crosshair, Globe2, Search } from "lucide-react";
 import { DashboardMap } from "@/components/dashboard-map";
 import { ReportBadges } from "@/components/badges";
 import { calculateBrief } from "@/lib/risk";
+import { formatRefreshTimeUtc } from "@/lib/geo";
 import type { HantamapReport, LocationRecord } from "@/lib/types";
 
 type RiskLensProps = {
@@ -232,6 +233,7 @@ export function RiskLens({ reports, lastUpdated }: RiskLensProps) {
             <div className="space-y-6">
               <article className="panel p-6">
                 <p className="kicker">Hantamap Brief</p>
+                <p className="subtle mt-2 text-sm">Historical snapshot based on data last updated {formatRefreshTimeUtc(lastUpdated)}. This score does not describe current conditions.</p>
                 <div className="mt-4 flex flex-wrap items-end justify-between gap-4">
                   <div>
                     <h2 className="text-4xl font-black tracking-tight">{brief.status}</h2>
@@ -248,7 +250,7 @@ export function RiskLens({ reports, lastUpdated }: RiskLensProps) {
                   Screening does not mean confirmed infection, and presumptive positive may still be pending final confirmation.
                 </p>
                 <dl className="mt-5 grid gap-3 sm:grid-cols-2">
-                  <BriefItem label="Nearest active verified report" value={brief.nearestActive ? `${Math.round(brief.nearestActive.distance)} mi - ${brief.nearestActive.title}` : "None within 250 miles"} />
+                  <BriefItem label="Nearest verified report in snapshot" value={brief.nearestActive ? `${Math.round(brief.nearestActive.distance)} mi - ${brief.nearestActive.title}` : "None within 250 miles"} />
                   <BriefItem label="Data confidence" value={brief.confidence} />
                   <BriefItem label="Official advisories" value={String(brief.officialAdvisories.length)} />
                   <BriefItem label="Person-to-person relevant nearby" value={String(brief.personToPersonEvents.length)} />

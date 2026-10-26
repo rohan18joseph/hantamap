@@ -18,6 +18,7 @@ export async function Footer() {
           <p className="mt-2 leading-6">
             Data may be incomplete, delayed, or incorrect. Supplemental reports can be unverified, and counts can differ between sources.
           </p>
+          <p className="mt-2 leading-6">Routine updates are paused. This site reflects a historical data snapshot.</p>
         </section>
         <section>
           <h2 className="font-black text-slate-950 dark:text-slate-100">Not medical advice</h2>

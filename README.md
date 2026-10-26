@@ -6,6 +6,10 @@ This is not an official public-health tool. The data is best-effort, may be inco
 
 Live site: [hantamap.rohanjoseph.net](https://hantamap.rohanjoseph.net)
 
+## Update Status
+
+Sources were last checked October 25, 2026, at 13:44 UTC. The newest included report is dated May 26, 2026. Routine source checks and scheduled data updates are paused. The site is a historical snapshot, and its Risk Lens does not describe current conditions. No further updates are planned unless public-health reporting changes and the project maintainer resumes them.
+
 ## This Is Just a Project
 
 Hantamap is a personal software and data-visualization project. It is meant to show how public reports can be structured, labeled, and mapped in a cautious way. It is not a public-health product, not an official information source, and not something anyone should rely on for medical, travel, workplace, or emergency decisions.
@@ -95,7 +99,7 @@ The local app runs at `http://localhost:4173`.
 npm run refresh:data
 ```
 
-The refresh workflow updates static JSON and the daily digest when sources are reachable. Manual source overrides can be added in `data/manual-source-overrides.json` when a source needs careful count or location attribution.
+The scheduled GitHub Actions refresh is paused. Run the command above only when updates resume; it fetches source pages and updates static JSON and the digest when sources are reachable. Manual source overrides can be added in `data/manual-source-overrides.json` when a source needs careful count or location attribution.
 
 ## Validate and Build
 
